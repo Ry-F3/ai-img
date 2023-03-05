@@ -23,7 +23,21 @@
     display: inherit;
     justify-content: inherit;
     width: 80%;
-    background-color: aqua;
+    height: 80px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(139, 139, 148, 0.25) 0 50px 100px -20px,
+        rgb(0 0 0/ 30%) 0 30px 60px -30px;
+    border: 5px solid rgba(139, 139, 148, 0.04);
+    z-index: 200;
+  }
+
+  nav .nav-list {
+    display: flex;
+  }
+
+  nav .nav-item {
+    line-height: 70px;
   }
   
   /* Container for flexboxes */
