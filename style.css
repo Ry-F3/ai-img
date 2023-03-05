@@ -39,7 +39,38 @@
   nav .nav-item {
     line-height: 70px;
   }
+
+  .btn {
+    cursor: pointer;
+    padding: 16px 16px;
+    border-radius: 4px;
+    background-color: grey;
+  }
   
+  .radio-display {
+    display: none;
+  }
+
+  .btn .btn-icon {
+    color: rgb(62, 62, 61);
+    font-size: 24px;
+    transform: translateX(100%);
+    transition: all .3s;
+  }
+
+  .btn .btn-text {
+    color: #f1f1f1;
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all .2s;
+  }
+
+  input:checked ~ .btn {
+    cursor: default;
+
+  }
+
   /* Container for flexboxes */
   .row {
     display: flex;
