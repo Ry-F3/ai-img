@@ -1,5 +1,9 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    user-select: none;
   }
   
   body {
@@ -8,10 +12,18 @@
   
   /* Style the header */
   .header {
-    background-color: #f1f1f1;
     padding: 30px;
-    text-align: center;
-    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav {
+    display: inherit;
+    justify-content: inherit;
+    width: 80%;
+    background-color: aqua;
   }
   
   /* Container for flexboxes */
