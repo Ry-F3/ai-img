@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns */
+  .column {
+ 
+    flex: 1;
+    padding: 10px;
+    height: 100vh; 
+  }
+
+  /* Create one unequal column */
+  .column-right {
+    flex: 3;
+    padding: 10px;
+    height: 100vh; 
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: sticky;
+    z-index: 100;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 700px) {
+    .row {
+      flex-direction: column;
+      height: 100vh;
+    }
+  }
