@@ -42,7 +42,7 @@
     box-shadow: rgba(139, 139, 148, 0.25) 0 50px 100px -20px,
         rgb(0 0 0/ 30%) 0 30px 60px -30px;
     border: 5px solid rgba(139, 139, 148, 0.04);
-    z-index: 100;
+    z-index: 20;
   }
 
   nav .nav-list {
@@ -184,7 +184,6 @@
    text-align: center;
    position: relative;
    background-color: rgba(99, 116, 242, 1);
-   z-index: -19
   }
 
   .product-btn {
@@ -195,13 +194,14 @@
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    z-index: 0;
+    z-index: 2;
     justify-content: center;
     text-align: center;
     border-radius: 20px 40px;
-    border: 1px transparent #706e6911;
+    border: 1px solid rgba(0,0,0,0.18);
     border-style: outset;
-    background: radial-gradient(circle, #fefdfc 0%, #f3f3f7 100%);
+    background: rgba(0,0,0,0.18);
+    backdrop-filter: saturate(180%) blur(10px);
   }
 
   button {
@@ -221,7 +221,7 @@
     background-color: white;
   }
 
-  button p em{
+  button p em {
     font-family: roboto;
     font-weight: 1000;
     letter-spacing: .15em;
@@ -232,7 +232,63 @@
   button:hover {
     transform: scale(.95);
   }
+
+  .overlay-btn {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-top: 230px;
+    z-index: 2;
+  }
+
+  #square-btn {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: 15vw;
+    height: 50px;
+    left: 18vw;
+    font-size: 2rem;
+    color:  rgba(99, 116, 242, 1);
+  }
+
+  .chevron {
+    border: 1px transparent rgba(246, 239, 239, 0);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -3.5em;
+    
+  }
   
+  .chevron::after,
+  .chevron::before {
+    position: absolute;
+    content: '';
+    height: 150px;
+    width: 150px;
+    background:#6374F2;
+    z-index: 1;
+    bottom: 40px;
+   
+    
+    
+  }
+
+  .chevron::before {
+   right: 100%;
+   transform: skew(0, 20deg);
+   right: 150px;
+  }
+
+  .chevron::after {
+    transform: skew(0, -20deg);
+    
+   }
     
   .center {  /* column 3 */
     text-align: center;
@@ -240,7 +296,9 @@
 
   #hero-mobile {
    width: 85vw;
-   z-index: -19;
+  position: relative;
+  margin-top: -10px;
+  z-index: -1;
   }
 
   hr {
@@ -256,11 +314,10 @@
   /* Style the footer */
   .footer {
     background-color: #f1f1f1;
-    width: 100%;
-    position: absolute;
     padding: 10px;
-    text-align: sticky;
-    z-index: 99;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
   }
   
   /* Responsive design */
