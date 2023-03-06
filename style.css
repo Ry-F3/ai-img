@@ -42,7 +42,7 @@
     box-shadow: rgba(139, 139, 148, 0.25) 0 50px 100px -20px,
         rgb(0 0 0/ 30%) 0 30px 60px -30px;
     border: 5px solid rgba(139, 139, 148, 0.04);
-    z-index: 20;
+    z-index: 100;
   }
 
   nav .nav-list {
@@ -183,7 +183,8 @@
    justify-content: center;
    text-align: center;
    position: relative;
-   background-color: rgba(99, 116, 242, 1)
+   background-color: rgba(99, 116, 242, 1);
+   z-index: -19
   }
 
   .product-btn {
@@ -239,6 +240,7 @@
 
   #hero-mobile {
    width: 85vw;
+   z-index: -19;
   }
 
   hr {
@@ -254,9 +256,11 @@
   /* Style the footer */
   .footer {
     background-color: #f1f1f1;
+    width: 100%;
+    position: absolute;
     padding: 10px;
     text-align: sticky;
-    z-index: 100;
+    z-index: 99;
   }
   
   /* Responsive design */
