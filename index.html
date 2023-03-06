@@ -15,35 +15,40 @@
         <nav>
             <span class="btn">
                 <a href="index.html"><img src="assets/images/logo.png" alt="logo" id="logo"></a>
-            </span> 
+            </span>
             <ul class="nav-list">
                 <li class="nav-item">
                     <label for="input-1">
-                        <input type="radio" id="input-1" name="nav-toggle" class="radio-display">
+                        <input type="radio" id="input-1" name="nav-toggle" class="radio-display"
+                            onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-home-3-fill"></i>
                             <span class="btn-text">
                                 Home
                             </span>
                         </span>
-                    </label>  
+                    </label>
                 </li>
 
                 <li class="nav-item">
+                    <a href="index.html" class="link-box"></a>
                     <label for="input-2">
-                        <input type="radio" id="input-2" name="nav-toggle" class="radio-display">
+                        <input type="radio" id="input-2" name="nav-toggle" class="radio-display"
+                            onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-information-fill"></i>
                             <span class="btn-text">
                                 About
                             </span>
                         </span>
-                    </label>   
+                    </label>
+
                 </li>
 
                 <li class="nav-item">
                     <label for="input-3">
-                        <input type="radio" id="input-3" name="nav-toggle" class="radio-display">
+                        <input type="radio" id="input-3" name="nav-toggle" class="radio-display"
+                            onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-service-fill"></i>
                             <span class="btn-text">
@@ -55,7 +60,8 @@
 
                 <li class="nav-item">
                     <label for="input-4">
-                        <input type="radio" id="input-4" name="nav-toggle" class="radio-display">
+                        <input type="radio" id="input-4" name="nav-toggle" class="radio-display"
+                            onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-user-smile-fill"></i>
                             <span class="btn-text">
@@ -67,9 +73,10 @@
 
                 <li class="nav-item">
                     <label for="input-5">
-                        <input type="radio" id="input-5" name="nav-toggle" class="radio-display">
+                        <input type="radio" id="input-5" name="nav-toggle" class="radio-display"
+                            onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
-                            <a href=""><i class="mobile-responsive btn-icon ri-wallet-3-fill"></i></a>
+                            <i class="mobile-responsive btn-icon ri-wallet-3-fill"></i>
                             <span class="btn-text">
                                 Pricing
                             </span>
@@ -80,10 +87,12 @@
             <ul>
                 <li class="nav-item">
                     <label for="input-6">
-                        <input type="radio" id="input-6" name="nav-toggle" class="radio-display">
-                        <span class="btn">
-                            <a href=""><i class="btn-icon ri-rocket-2-fill"></i></a>
-                            <span class="btn-text">
+                        <input type="radio" id="input-6" name="nav-toggle" class="radio-display"
+                            onClick=" location.href='index.html' ">
+                        <span class="btn active-btn">
+                            <i class="active-icon ri-align-center"></i>
+                            <!-- <a href=""><i class="active-icon btn-icon ri-rocket-2-fill"></i></a> -->
+                            <span class="btn-text active-text">
                                 Get Started
                             </span>
                         </span>
@@ -91,14 +100,36 @@
                 </li>
             </ul>
         </nav>
+    </div>
 
-    </div>
     <div class="header-box"></div>
+
     <div class="row">
-        <div class="column side" style="background-color:#aaa;">Column1</div>
-        <div class="column middle" style="background-color:#bbb;">Column2</div>
-        <div class="column-right side" style="background-color:#ccc;">Column3</div>
+        <div class="column c-one side">
+            <div class="header-box-2"></div>
+            <h1>Artificial Intelligence</h1>
+            <div>
+                <h4>Creative Solutions Provider</h4>
+            </div>
+        </div>
+
+        <div class="column c-two middle">
+            <div class="product-btn">
+                <br>
+                <button><p><em>Ads</em></p></button>
+                <button><p><em>Socials</em></p></button>
+                <button><p><em>NFTs</em></p></button>
+            </div>
+        </div>
+
+        <div class="column-right c-three side">
+            <div class="center">
+                <img src="assets/images/mobile-hero.jpeg" id="hero-mobile">
+            </div>
+            <hr class="dotted">
+        </div>
     </div>
+    <!-- <div class="line-2"></div> -->
 
     <footer class="footer">
         <p>Footer</p>
