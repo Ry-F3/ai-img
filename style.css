@@ -90,11 +90,12 @@
 
   .btn .btn-icon:hover {
     color: rgba(243, 112, 90, 1);
-    font-size: .95em;
+    font-size: 2em;
   }
 
   .btn .btn-icon:hover ~ .btn-text {
     font-size: 1.1em;
+    opacity: 0;
   }
 
   .btn .btn-text {
