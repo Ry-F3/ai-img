@@ -310,7 +310,7 @@
   }
 
   .c-three {
-    height: 50vh;
+    height: 100%;
   }
 
   #hero-mobile {
@@ -335,7 +335,7 @@
   }
 
   .box-about {
-    width: 70vw;
+    width: 80%;
     height: 400px;
     padding: 0px;
     margin-left: auto;
@@ -452,4 +452,12 @@
     .mobile-responsive {
       display: none;
     }
+  }
+
+  @media (max-width: 310px) {
+    .chevron {
+      display: none;
+    }
+
+
   }
