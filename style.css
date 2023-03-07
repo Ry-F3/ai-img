@@ -148,13 +148,14 @@
   .column {
     flex: 1;
     padding: 10px;
+
   }
 
   /* Create unequal column */
   .column-right {
     flex: 3;
     padding: 10px;
-    height: 100vh; 
+    height: 900px; 
   }
 
   /* content home page MOBILE DESIGN */
@@ -338,6 +339,7 @@
     width: 80%;
     height: 400px;
     padding: 0px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -454,10 +456,10 @@
     }
   }
 
-  /* @media (max-width: 310px) {
+  @media (max-width: 310px) {
     .chevron {
       display: none;
     }
 
 
-  } */
+  }
