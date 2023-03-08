@@ -31,18 +31,17 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="index.html" class="link-box"></a>
                     <label for="input-2">
-                        <input type="radio" id="input-2" name="nav-toggle" class="radio-display"
-                            onClick=" location.href='index.html' ">
+                        <input type="radio" id="input-2" name="nav-toggle" class="radio-display">
                         <span class="btn mobile-responsive">
-                            <i class="mobile-responsive btn-icon ri-information-fill"></i>
+                            <a href="#about_0" class="mobile-responsive btn-icon">
+                                <i class="ri-information-fill"></i>    
+                            </a>
                             <span class="btn-text">
-                                About
+                                <a href="#about">About</a>
                             </span>
                         </span>
                     </label>
-
                 </li>
 
                 <li class="nav-item">
@@ -107,15 +106,13 @@
     <!-- section home page -->
     <section>
         <div>
-            <div class="column color-prime">
+            <div class="column color-prime relative">
                 <div class="divider-box color-prime"></div>
                 <h1>Artificial Intelligence</h1>
-                <div>
-                    <h4>Creative Solutions Provider</h4>
-                </div>
+                <h4>Creative Solutions Provider</h4>
             </div>
 
-            <div class="column column-position color-prime">
+            <div class="column column-position color-prime drop-shadow">
                 <div class="blur-box">
                     <br>
                     <button><em>Ads</em></button>
@@ -139,8 +136,8 @@
             <h2>About</h2>
         </div>
 
-        <div class="row">
-            <div class="column column-height column-position color-second">
+        <div id="about" class="row">
+            <div id="about_0" class="column column-height column-position color-second">
                 <div class="box-about">
                     <div class="circle-container">
                         <div class="circle-inner">
