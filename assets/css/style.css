@@ -755,7 +755,8 @@ div p {
   }
 
   #t_img {
-    width: 50%;
+    width: 250px;
+    position: relative;
   }
 }
 
