@@ -666,7 +666,7 @@ div p {
   }
   
   .roadmap ul li:hover::after {
-    background-color: rgba(243, 112, 90, .9);
+    background-color: rgba(243, 112, 90, 1);
   }
 
   /* Testimonials */
