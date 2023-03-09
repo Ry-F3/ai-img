@@ -431,8 +431,9 @@ div p {
 /* hero image */
 
 #mobile-hero {
-  width: 75vw;
+  width: 80vw;
   position: relative;
+  border-radius: 30px;
   top: -150px;
   z-index: 2;
 }
@@ -744,14 +745,17 @@ div p {
 
 
 @media screen and (max-width: 755px) {
+  .testimonial::after,
   .testimonial::before {
     display: none;
   }
 
   .testimonial ul li {
-    
     width: 100%;
-   
+  }
+
+  #t_img {
+    width: 50%;
   }
 }
 
