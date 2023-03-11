@@ -734,7 +734,6 @@ div #t_heading {
     background-size: 100%;
     border-radius: 50%;
     z-index: 1;
-
   }
 
   #t_img {
@@ -755,6 +754,9 @@ div #t_heading {
     left: 7.5vw;
   }
 
+  .speech-bubble {
+    display: none;
+  }
 }
 
 /* Responsive design above screen width of 335px */
