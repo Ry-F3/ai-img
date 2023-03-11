@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=xoRbkm8XgfQ&t=419s (before and after)
 
 https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (transition in and out)
 
+https://codepen.io/thebabydino/pen/DmVqBM (speech bubble)
+
 ![Index page screenshot]()
 
 # Ai.img

@@ -340,7 +340,7 @@ button:hover {
 
 /* page break */
 .page-break h2 {
-  bottom: -175px;
+  bottom: -150px;
   position: relative;
 
 }
@@ -393,14 +393,49 @@ button:hover {
   color: #f1f1f1;
 }
 
+.h-container {
+  width: 50%;
+  height: 150px;
+  /* border: 1px solid rgb(23, 103, 184); */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50px;
+  text-align: center;
+  display: flex;
+  
+}
+
+.l-container {
+  height: 60%;
+  width: 40%;
+  /* border: 2px solid greenyellow; */
+  position: relative;
+  bottom: -50px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-container > h2 {
+  top: 30px;
+  color: #f1f1f1;
+}
+
+#about-logo {
+ font-size: 40px;
+ font-family: roboto;
+}
+
+
 #robot {
   padding: 10px;
   color: #f1f1f1;
 }
 
-div h2 {
+/* div h2 {
   text-align: center;
-}
+} */
 
 .p-container {
   width: 90%;
@@ -439,7 +474,7 @@ div p {
 }
 
 /* Team Page */
-.container {
+.large-container {
   position: relative;
   width: 150px;
   height: 150px;
@@ -450,7 +485,7 @@ div p {
   z-index: -1;
 }
 
-.small-container {
+.medium-container {
   position: relative;
   width: 100px;
   height: 100px;
@@ -459,10 +494,9 @@ div p {
   margin: 0 auto;
   margin-top: 20px;
   z-index: -1;
-
 }
 
-.smaller-container {
+.small-container {
   position: relative;
   width: 50px;
   height: 50px;
@@ -470,9 +504,20 @@ div p {
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   z-index: -1;
+}
 
+.smaller-container {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border: 0.5px solid slategray;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  z-index: -1;
 }
 
 #team-boss {
@@ -482,6 +527,11 @@ div p {
   position: relative;
   top: 25px;
   right: -25px;
+}
+
+#team_heading{
+  text-align: center;
+  color: slategray;
 }
 
 .prompt-pros {
@@ -574,12 +624,71 @@ div p {
 
 .testimonial ul li {
   padding: 25px;
-  width: 250px;
+  width: 350px;
   background: rgba(0, 0, 0, .18);
   color: white;
   border-radius: 20px;
   margin-bottom: 20px;
   position: relative;
+}
+
+.testimonial-text:nth-last-child(odd) {
+  text-align: left;
+}
+
+.testimonial-text:nth-child(even) {
+  text-align: right;
+}
+
+div #t_heading {
+  position: relative;
+  bottom: 20px;
+}
+
+.speech-bubble {
+  position: relative;
+  margin: 0.5em auto;
+  padding: 1em;
+  width: 10em;
+  height: 4em;
+  border-radius: 0.25em;
+  transform: rotate(348deg) rotateY(188deg);
+  background: #5c7af2;
+  font: 2em/4 roboto;
+  text-align: center;
+  z-index: 1;
+}
+
+.speech-bubble p {
+ transform: rotate(359deg) rotateY(191deg);
+}
+
+.speech-bubble:before, .speech-bubble:after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+}
+.speech-bubble:after {
+  top: 0; right: 0; bottom: 0; left: 0;
+  border-radius: inherit;
+  transform: rotate(2deg) translate(.35em, -.15em) scale(1.02);
+  background: #f4fbfe;
+}
+.speech-bubble:before {
+  border: solid 0 transparent;
+  border-right: solid 3.5em #f4fbfe;
+  border-bottom: solid .25em #5c7af2;
+  bottom: .25em; left: 1.25em;
+  width: 0; height: 1em;
+  transform: rotate(45deg) skewX(75deg);
+}
+
+/* Gallery */
+
+.gallery-slider {
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 /* z-index */
@@ -608,6 +717,48 @@ div p {
 
 /* Responsive design for desktop */
 @media screen and (min-width: 750px) {
+
+  /* Testimonials */
+
+  .testimonial ul li:nth-child(odd) {
+       clear: both;
+    bottom: 50px;
+  }
+  
+  .testimonial ul li:nth-child(even) {
+       bottom: 50px;
+  }
+
+  .testimonial {
+    background: url("../images/lady.jpeg") no-repeat center;
+    background-size: 100%;
+    border-radius: 50%;
+    z-index: 1;
+
+  }
+
+  #t_img {
+    display: none;
+  }
+
+
+  .blur-box {
+    width: 25vw;
+  }
+
+  button {
+    width: 20vw;
+  }
+
+  #square-btn {
+    width: 5vw;
+    left: 7.5vw;
+  }
+
+}
+
+/* Responsive design above screen width of 335px */
+@media screen and (min-width: 335px) {
   .roadmap:before {
     content: "";
     position: absolute;
@@ -668,71 +819,11 @@ div p {
   .roadmap ul li:hover::after {
     background-color: rgba(243, 112, 90, 1);
   }
-
-  /* Testimonials */
-
-  .testimonial ul li:nth-child(odd) {
-    float: left;
-    clear: both;
-    transform: translateX(0%); 
-  }
-  
-  .testimonial ul li:nth-child(even) {
-    float: right;
-    transform: translateY(20%);
-  }
-
-  .testimonial::after,
-  .testimonial::before {
-    content: '';
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    /* border: 1px solid rgb(202, 190, 190); */
-    background: url("../images/interface-banner.jpeg");
-    background-size: 100%;
-    transform: translate(-50%, -50%);
-    margin-top: 100px;
-    z-index: 1;
-    clear: both;
-  }
-
-  .testimonial::after {
-    background: url("../images/lady.jpeg") no-repeat center;
-    background-size: 100%;
-    right: 100px;
-    z-index: 1;
-
-  }
-
-  #t_img {
-    position: absolute;
-    width: 200px;
-    z-index: -10;
-    right: 50px;
-    top: -150px;
-  }
-
-
-  .blur-box {
-    width: 25vw;
-  }
-
-  button {
-    width: 20vw;
-  }
-
-  #square-btn {
-    width: 5vw;
-    left: 7.5vw;
-  }
-
 }
 
 /* Responsive design for ipad & mobile */
-@media (max-width: 1253px) {
-  .btn-text {
+@media screen and (max-width: 1253px) {
+  .btn-text {   
     display: none;
   }
 
@@ -743,7 +834,6 @@ div p {
 
 }
 
-
 @media screen and (max-width: 755px) {
   .testimonial::after,
   .testimonial::before {
@@ -751,17 +841,30 @@ div p {
   }
 
   .testimonial ul li {
-    width: 100%;
+    width: 80%;
+  }
+
+  .testimonial ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+
+  }
+
+  .testimonial ul li:nth-child(even) {
+    float: right;
+    clear: left;
+   
   }
 
   #t_img {
     width: 250px;
     position: relative;
+    z-index: -10;
   }
 }
 
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .row {
     display: flex;
     flex-direction: column;
@@ -772,7 +875,7 @@ div p {
   }
 }
 
-@media (max-width: 310px) {
+@media screen and (max-width: 310px) {
   .chevron {
     display: none;
   }
