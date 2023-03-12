@@ -24,7 +24,7 @@
                             onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-home-3-fill"></i>
-                            <span class="btn-text">
+                            <span class="btn-text toggle-text">
                                 Home
                             </span>
                         </span>
@@ -38,7 +38,7 @@
                             <a href="#about_0" class="mobile-responsive btn-icon">
                                 <i class="ri-information-fill"></i>
                             </a>
-                            <span class="btn-text">
+                            <span class="btn-text toggle-text">
                                 <a href="#about">About</a>
                             </span>
                         </span>
@@ -51,7 +51,7 @@
                             onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-service-fill"></i>
-                            <span class="btn-text">
+                            <span class="btn-text toggle-text">
                                 Services
                             </span>
                         </span>
@@ -64,7 +64,7 @@
                             onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-user-smile-fill"></i>
-                            <span class="btn-text">
+                            <span class="btn-text toggle-text">
                                 User Cases
                             </span>
                         </span>
@@ -77,7 +77,7 @@
                             onClick=" location.href='index.html' ">
                         <span class="btn mobile-responsive">
                             <i class="mobile-responsive btn-icon ri-wallet-3-fill"></i>
-                            <span class="btn-text">
+                            <span class="btn-text toggle-text">
                                 Pricing
                             </span>
                         </span>
@@ -87,8 +87,7 @@
             <ul>
                 <li class="nav-item">
                     <label for="input-6">
-                        <input type="radio" id="input-6" name="nav-toggle" class="radio-display"
-                            onClick=" location.href='index.html' ">
+                        <input type="checkbox" id="input-6" name="nav-toggle" class="radio-display">
                         <span class="btn active-btn">
                             <i class="active-icon ri-align-center"></i>
                             <!-- <a href=""><i class="active-icon btn-icon ri-rocket-2-fill"></i></a> -->
@@ -113,8 +112,8 @@
                 <h4>Creative Solutions Provider</h4>
             </div>
 
-            <div class="column column-position color-prime drop-shadow">
-                <div class="blur-box">
+            <div class="column column-position color-prime drop-shadow z-index-neg">
+                <div class="blur-box z-index-neg">
                     <br>
                     <button><em>Ads</em></button>
                     <button><em>Socials</em></button>
@@ -401,20 +400,21 @@
     <!-- Pricing -->
     <section>
         <div>
-            <div class="column">
+            <div class="column color">
                 <div class="page-break"></div>
                 <div class="page-break"></div>
+                <div class="img_overlay"></div>
                 <div class="pricing-container">
                 
                     <div class="plan">
                         <table>
-                            <tr>
+                            <tr class="table-text">
                                 <th></th>
                                 <th>Free<br><em>Basic</em></th>
                                 <th>Start-up<br><em>Premium</em></b></th>
                                 <th>Enterprise<br><em>Ultimate</em></th>
                             </tr>
-                            <tr>
+                            <tr class="table-text">
                                 <td></td>
                                 <td><span><i class="fas fa-user-astronaut"></i></span><br>Free<br>
                                     <div class="price-btn">Get Started</div>
@@ -447,7 +447,7 @@
                                 <td>✔</td>
                             </tr>
                             <tr>
-                                <td>Unlimited Generations</td>
+                                <td>Unlimited Image Generations</td>
                                 <td>✘</td>
                                 <td>✔</td>
                                 <td>✔</td>
@@ -469,9 +469,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
+
+    <div class="page-break"></div>
 
     <section>
         <div>
