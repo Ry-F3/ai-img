@@ -695,26 +695,21 @@ div #t_heading {
 /* Pricing */
 
 .pricing-container {
-  z-index: 2;
-  top: 50px;
-  height: 100vh;
   max-width: 975px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  background: url("../images/pricing.jpeg") center center / cover no-repeat fixed;
+  background: url(../images/pricing.jpeg) center center / cover no-repeat fixed;
   background-size: 85%;
-  width: 100%;
+
 }
 
 
 .plan {
- display: flex;
+  display: flex;
   align-items: left;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
-  width: 80%; 
+  border-radius: 10px; 
 }
 
 table {
@@ -722,10 +717,12 @@ table {
   margin-right: auto;
   margin-top: 110px;
   width: 95%;
-  box-shadow: 5px 40px 30px 5px rgba(0, 0, 0, 0.18);
-  background-color: rgba(255, 255, 255, 1);
-  margin-bottom: 150px; 
+  box-shadow: 5px 40px 30px 5px rgb(0 0 0 / 18%);
+  background-color: rgba(255, 255, 255, .858);
+  margin-bottom: 150px;
+  border: 1px solid #d2d2d259;
 }
+
   
 .plan table tr {
   display: grid;

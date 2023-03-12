@@ -8,6 +8,9 @@ https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (tran
 
 https://codepen.io/thebabydino/pen/DmVqBM (speech bubble)
 
+https://www.youtube.com/watch?v=OGJvhpoE8b4 (:has)
+
+
 ![Index page screenshot]()
 
 # Ai.img
