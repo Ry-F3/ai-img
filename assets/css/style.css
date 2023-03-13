@@ -977,7 +977,7 @@ th, td {
     border-bottom: 4px solid rgba(139, 139, 148, 0.04);
   }
 
-  nav ul li {
+  .border-top {
     border-top: 1px solid rgba(144, 140, 140, 0.1);
   }
 
