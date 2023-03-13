@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +10,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   height: 100vh;
 }
 
@@ -119,7 +121,7 @@ nav .nav-item {
 
 .btn .btn-text {
   color: slategray;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   font-weight: 500;
   transition: all .2s;
@@ -192,17 +194,20 @@ input:checked~.btn {
 }
 
 /* Mobile First Design - content home page */
-div h1 {
+ div h1 {
+  font-family: PT Sans, Arial, Helvetica, sans-serif;
+  letter-spacing: .5px;
   margin: 4px;
   color: #f1f1f1;
   /* column one */
 }
 
 div h4 {
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
   margin: 20px auto;
   color: #f3f3f7;
   text-align: center;
+  letter-spacing: 1px;
   font-size: 16px;
   max-width: 410px;
   position: relative;
@@ -214,10 +219,10 @@ div h4::before {
   /* line before h4 tag */
   content: "";
   display: block;
-  width: 30px;
+  width: 50px;
   height: 2px;
   background: #f3f3f7;
-  left: 15px;
+  left: 10px;
   top: 50%;
   position: absolute;
 }
@@ -272,7 +277,7 @@ button {
 }
 
 button em {
-  font-family: roboto;
+  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;;
   font-weight: 1000;
   letter-spacing: .15em;
   color: slategray;
@@ -368,12 +373,13 @@ button:hover {
   position: relative;
   width: 150px;
   height: 150px;
-  background-color: rgba(243, 112, 90, 1);
-  border: 0.5px solid slategray;
+  background-color: rgb(0 0 0 / 18%);
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 20px;
   z-index: -1;
+  border: inset white .25px;
+
 
 }
 
@@ -391,7 +397,7 @@ button:hover {
   border-radius: 50%;
   text-align: center;
   padding: 15px;
-  color: #f1f1f1;
+  color: rgb(48 46 46 / 68%);
 }
 
 .h-container {
@@ -418,20 +424,38 @@ button:hover {
   margin-right: auto;
 }
 
-.l-container>h2 {
+.l-container > h2 {
   top: 30px;
   color: #f1f1f1;
+  font-family: PT Sans, Roboto, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.p-container h3 {
+  color: #cacbd4;
+  margin-top: 20px;
+  border: 1px inset rgb(239 229 229 / 20%);
+  border-radius: 2px;
+  padding: 10px;
+  font-family: PT Sans, Roboto, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.p-container p {
+  font-size: .8em;
+  line-height: 24px;
+  font-weight: 600;
+  color: #f1f1f1bd;
+  letter-spacing: .15px;
+  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
 }
 
 #about-logo {
   font-size: 40px;
-  font-family: roboto;
+  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
 }
-
 
 #robot {
   padding: 10px;
-  color: #f1f1f1;
+  color: rgb(48 46 46 / 68%);
 }
 
 /* div h2 {
@@ -441,16 +465,9 @@ button:hover {
 .p-container {
   width: 90%;
   height: auto;
-  border: 1px solid slategray;
   margin: 10px auto;
   position: relative;
   overflow-wrap: break-word;
-
-}
-
-div p {
-  font-size: .8em;
-  line-height: 24px;
 
 }
 
