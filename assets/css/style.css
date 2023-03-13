@@ -677,6 +677,7 @@ div #t_heading {
 
 .speech-bubble p {
   transform: rotate(359deg) rotateY(191deg);
+  font-size: 15px;
 }
 
 .speech-bubble:before,
