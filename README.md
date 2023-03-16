@@ -167,7 +167,7 @@ Although the navbar is fully functional and responsive to various screen sizes, 
 
 <img src="./assets/images/screenshots/nav-mobile-toggle.jpg" width=190 height=300>
 
-Whilst researching I came across a youTube video explaining " :has() Psuedo class selectors " [Click Link](https://www.youtube.com/watch?v=OGJvhpoE8b4&t=625s) it was incredible useful for helping me enable my navbar dropdown menu to expand and collapse, once the invisible checkbox was checked by the user. Insprired by Kevnin Powell's coding knowledge I wrote <code>nav:has(#input-6:checked) .nav-list {
+Whilst researching I came across a youTube video explaining " :has() Psuedo class selectors " [Click Link](https://www.youtube.com/watch?v=OGJvhpoE8b4&t=625s) it was incredible useful for helping me enable my navbar dropdown menu to expand and collapse, once the invisible checkbox was checked by the user. Insprired by Kevnin Powell's coding knowledge I wrote: <br> <code>nav:has(#input-6:checked) .nav-list {
       display: block;
   }</code>
 
