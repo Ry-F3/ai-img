@@ -160,27 +160,7 @@ Pricing Page (Desktop):<br>
 Get Started Form (Desktop):<br>
 ![Form](assets/wireframes/desktop/form.png)
 
-
 ## **Function**
-
-Although the navbar is fully functional and responsive to various screen sizes, I encountered an issue when it came to the dropdown toggle. Since the content is primarily contained in one HTML file and there is no JavaScript involved, I struggled to find a solution, where the toggle would collapse naturally when a link would be clicked, without the need for the user to open it in a new tab, which is achieved using <code>target="_blank"</code>.
-
-<img src="./assets/images/screenshots/nav-mobile-toggle.jpg" width=190 height=300>
-
-Whilst researching I came across a youTube video explaining " :has() Psuedo class selectors " [Click Link](https://www.youtube.com/watch?v=OGJvhpoE8b4&t=625s) it was incredible useful for helping me enable my navbar dropdown menu to expand and collapse, once the invisible checkbox was checked by the user. Insprired by Kevnin Powell's coding knowledge I wrote: <br> <code>nav:has(#input-6:checked) .nav-list {
-      display: block;
-  }</code>
-
-<img src="./assets/images/screenshots/nav-ipad.png" width=550 height=80>
-
-For the practicality of viewing on i.e an Ipad, using media queries enabled the text to be hidden.
-
-<img src="./assets/images/screenshots/nav-full.png" width=650 height=80>
-
-<img src="./assets/images/screenshots/nav-hover.png" width=650 height=80>
-
-On the other hand, viewing the navbar on a desktop provides a different and more engaging experience for the user. They can simply hover over the icons and see them enlarge, while the text fades and disappears. I am particularly proud of this piece of code, as I believe it creates a visually pleasing effect that adds to the overall aesthetic of the website.
-
 
 ## **Features**
 
@@ -204,6 +184,22 @@ On the other hand, viewing the navbar on a desktop provides a different and more
 ### **User feedback**
 
 ### **Internal Navigation**
+
+Although the navbar is fully functional and responsive to various screen sizes, I encountered an issue when it came to the dropdown toggle. Since the content is primarily contained in one HTML file and there is no JavaScript involved, I struggled to find a solution, where the toggle would collapse naturally when a link would be clicked, without the need for the user to open it in a new tab, which is achieved using <code>target="_blank"</code>.
+
+<img src="./assets/images/screenshots/nav-mobile-toggle.jpg" width=190 height=300>
+
+Whilst researching I came across a youTube video explaining " :has() Psuedo class selectors " [Click Link](https://www.youtube.com/watch?v=OGJvhpoE8b4&t=625s) it was incredible useful for helping me enable my navbar dropdown menu to expand and collapse, once the invisible checkbox was checked by the user. Insprired by Kevnin Powell's coding knowledge I wrote: <br><code>nav:has(#input-6:checked) .nav-list {display: block;}</code>
+
+<img src="./assets/images/screenshots/nav-ipad.png" width=550 height=80>
+
+For the practicality of viewing on i.e an Ipad, using media queries enabled the text to be hidden.<br>
+
+<img src="./assets/images/screenshots/nav-full.png" width=650 height=80>
+
+<img src="./assets/images/screenshots/nav-hover.png" width=650 height=80>
+
+On the other hand, viewing the navbar on a desktop provides a different and more engaging experience for the user. They can simply hover over the icons and see them enlarge, while the text fades and disappears. I am particularly proud of this piece of code, as I believe it creates a visually pleasing effect that adds to the overall aesthetic of the website. This was achieved by researching and analysing CSS Tricks's page [Click Link](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/).
 
 ### **Image Galleries** 
 
