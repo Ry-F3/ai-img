@@ -113,42 +113,42 @@ On the whole, our target audience is businesses that prioritize innovation, crea
 ### **Mobile First Design**
 
 Landing Page & About Section (Mobile):<br>
-![Home and About Page](../ai.img-v2/assets/wireframes/mobile/landing-about-page.png)
+![Home and About Page](assets/wireframes/mobile/landing-about-page.png)
 
 Service Page & User Cases (Mobile):<br>
-![Service Page & User Cases](../ai.img-v2/assets/wireframes/mobile/service-user-case.png)
+![Service Page & User Cases](assets/wireframes/mobile/service-user-case.png)
 
 User Cases Gallery & Pricing (Mobile):<br>
-![Service Page & User Cases](../ai.img-v2/assets/wireframes/mobile/user-case-price.png)
+![Service Page & User Cases](assets/wireframes/mobile/user-case-price.png)
 
 Get Started Form (Mobile):<br>
-![Get Started Form](../ai.img-v2/assets/wireframes/mobile/get-started-form.png)
+![Get Started Form](assets/wireframes/mobile/get-started-form.png)
 
 ### **Desktop Scaling**
 
 Homepage (Desktop):<br>
-![Homepage](../ai.img-v2/assets/wireframes/desktop/homepage.png)
+![Homepage](assets/wireframes/desktop/homepage.png)
 
 About Page (Desktop):<br>
-![About](../ai.img-v2/assets/wireframes/desktop/about.png)
+![About](assets/wireframes/desktop/about.png)
 
 Services Page (Desktop):<br>
-![Services Page](../ai.img-v2/assets/wireframes/desktop/service.png)
+![Services Page](assets/wireframes/desktop/service.png)
 
 User Case Testimonials (Desktop):<br>
-![User Case Testimonials](../ai.img-v2/assets/wireframes/desktop/testimonials.png)
+![User Case Testimonials](assets/wireframes/desktop/testimonials.png)
 
 User Case Gallery (Desktop):<br>
-![User Case Testimonials](../ai.img-v2/assets/wireframes/desktop/testimonials.png)
+![User Case Testimonials](assets/wireframes/desktop/testimonials.png)
 
 Pricing Page Parallax Effect (Desktop):<br>
-![Parallax](../ai.img-v2/assets/wireframes/desktop/parallax.png)
+![Parallax](assets/wireframes/desktop/parallax.png)
 
 Pricing Page (Desktop):<br>
-![Pricing Page](../ai.img-v2/assets/wireframes/desktop/pricing.png)
+![Pricing Page](assets/wireframes/desktop/pricing.png)
 
 Get Started Form (Desktop):<br>
-![Form](../ai.img-v2/assets/wireframes/desktop/form.png)
+![Form](assets/wireframes/desktop/form.png)
 
 
 ## **Function**
