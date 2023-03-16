@@ -98,16 +98,58 @@ Overall, the design decisions made during the development of this website aimed 
 
 ## **Audience**
 
+Our target audience comprises of businesses that have a B2C approach but lack the technical expertise to implement new technology solutions on their own. These businesses are often interested in finding creative and innovative solutions to meet their high-paced needs in a fast-changing market. They understand the importance of staying ahead of the competition and are willing to invest in the right tools and services to achieve their goals.
+
+Our ideal customers are decision-makers who value reliability and trust in their business partnerships. They are looking for a team that not only understands their business needs but also has the technical expertise to provide effective solutions. Our service could provide them with a competitive edge by delivering high-quality creative services that resonate with their target audience and help them achieve their business objectives.
+
+We also cater to businesses that are open to exploring new technologies and are interested in experimenting with AI-driven creative solutions. These businesses are typically early adopters who understand the importance of staying ahead of the curve and are willing to take calculated risks to achieve their business goals.
+
+On the whole, our target audience is businesses that prioritize innovation, creativity, and reliability in their business partnerships. We aim to provide them with a seamless experience and customized solutions that align with their specific business needs and goals.
+
 ## **User Stories**
 
 ## **Wireframes**
 
 ### **Mobile First Design**
 
-Homepage (landing page):<br>
-![Homepage]()
+Landing Page & About Section (Mobile):<br>
+![Home and About Page](../ai.img-v2/assets/wireframes/mobile/landing-about-page.png)
+
+Service Page & User Cases (Mobile):<br>
+![Service Page & User Cases](../ai.img-v2/assets/wireframes/mobile/service-user-case.png)
+
+User Cases Gallery & Pricing (Mobile):<br>
+![Service Page & User Cases](../ai.img-v2/assets/wireframes/mobile/user-case-price.png)
+
+Get Started Form (Mobile):<br>
+![Get Started Form](../ai.img-v2/assets/wireframes/mobile/get-started-form.png)
 
 ### **Desktop Scaling**
+
+Homepage (Desktop):<br>
+![Homepage](../ai.img-v2/assets/wireframes/desktop/homepage.png)
+
+About Page (Desktop):<br>
+![About](../ai.img-v2/assets/wireframes/desktop/about.png)
+
+Services Page (Desktop):<br>
+![Services Page](../ai.img-v2/assets/wireframes/desktop/service.png)
+
+User Case Testimonials (Desktop):<br>
+![User Case Testimonials](../ai.img-v2/assets/wireframes/desktop/testimonials.png)
+
+User Case Gallery (Desktop):<br>
+![User Case Testimonials](../ai.img-v2/assets/wireframes/desktop/testimonials.png)
+
+Pricing Page Parallax Effect (Desktop):<br>
+![Parallax](../ai.img-v2/assets/wireframes/desktop/parallax.png)
+
+Pricing Page (Desktop):<br>
+![Pricing Page](../ai.img-v2/assets/wireframes/desktop/pricing.png)
+
+Get Started Form (Desktop):<br>
+![Form](../ai.img-v2/assets/wireframes/desktop/form.png)
+
 
 ## **Function**
 
