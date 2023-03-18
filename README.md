@@ -136,28 +136,28 @@ Get Started Form (Mobile):<br>
 
 ### **Desktop Scaling**
 
-Homepage (Desktop):<br>
+**Homepage (Desktop):**<br>
 ![Homepage](assets/wireframes/desktop/homepage.png)
 
-About Page (Desktop):<br>
+**About Page (Desktop):**<br>
 ![About](assets/wireframes/desktop/about.png)
 
-Services Page (Desktop):<br>
+**Services Page (Desktop):**<br>
 ![Services Page](assets/wireframes/desktop/service.png)
 
-User Case Testimonials (Desktop):<br>
+**User Case Testimonials (Desktop):**<br>
 ![User Case Testimonials](assets/wireframes/desktop/testimonials.png)
 
-User Case Gallery (Desktop):<br>
-![User Case Testimonials](assets/wireframes/desktop/testimonials.png)
+**User Case Gallery (Desktop):**<br>
+![User Case Testimonials](assets/wireframes/desktop/gallery.png)
 
-Pricing Page Parallax Effect (Desktop):<br>
+**Pricing Page Parallax Effect (Desktop):**<br>
 ![Parallax](assets/wireframes/desktop/parallax.png)
 
-Pricing Page (Desktop):<br>
+**Pricing Page (Desktop):**<br>
 ![Pricing Page](assets/wireframes/desktop/pricing.png)
 
-Get Started Form (Desktop):<br>
+**Get Started Form (Desktop):**<br>
 ![Form](assets/wireframes/desktop/form.png)
 
 ## **Function**
