@@ -12,6 +12,8 @@ https://www.youtube.com/watch?v=OGJvhpoE8b4 (:has)
 
 https://fonts.google.com/
 
+https://cssanimation.rocks/spheres/ (shere)
+
 
 ![Index page screenshot]()
 

@@ -556,8 +556,8 @@ button:hover {
 
 #scroll_img {
   background: url(../images/web/interface.jpeg) center center / cover no-repeat;
-  background-size: 116%;
-  background-position: 40% 130%;
+  background-size: 96%;
+  background-position: 89% 130%;
   z-index: -10;
 }
 
@@ -614,10 +614,10 @@ button:hover {
 
 #pro_heading_box {
   /* border: 1px solid blue; */
-  width: 69%;
+  width: 80%;
   position: absolute;
   height: 500px;
-  top: -552px;
+  top: -416px;
   /* margin-left: auto; */
   /* margin-right: 4px; */
   left: 10px;
@@ -628,7 +628,7 @@ button:hover {
   color: #5c7af2;
   position: relative;
   float: left;
-  font-size: 8rem;
+  font-size: 7rem;
   font-family: roboto;
   top: -2px;
   left: -5px;
@@ -636,24 +636,23 @@ button:hover {
 }
 
 #team_heading_are {
-  color: #44526d;
+  color: #42526e;
   position: relative;
   float: left;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: roboto;
-  top: -50px;
+  top: -45px;
   left: 48px;
-
 }
 
 #team_heading_we {
   color: rgba(243, 112, 90, 1);
   position: relative;
   float: left;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: roboto;
-  top: -78px;
-  left: 120px;
+  top: 4px;
+  left: 12px;
 
 }
 
@@ -1132,6 +1131,11 @@ textarea {
   .row {
     display: flex;
     flex-direction: column;
+  }
+
+  .row_revert {
+    display: flex;
+    flex-direction: inherit;
   }
 
   /* .mobile-responsive {
