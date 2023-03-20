@@ -236,7 +236,7 @@ div h4::before {
   text-align: center;
   position: relative;
   height: 550px;
-  z-index: -2;
+  z-index: 10;
 }
 
 .drop-shadow {
@@ -280,7 +280,6 @@ button {
 
 button em {
   font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
-  ;
   font-weight: 1000;
   letter-spacing: .15em;
   color: slategray;
@@ -511,7 +510,7 @@ button:hover {
   height: 150px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 50px;
   z-index: -1;
   background: radial-gradient(circle at 50% 120%, rgba(243, 112, 90, 1), rgb(255, 255, 255) 10%, #5c7af2 80%, #9fd4fb 100%);
 }
@@ -533,10 +532,10 @@ button:hover {
   height: 50px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 8px;
+  /* margin-bottom: 100px; */
   z-index: -1;
-  background: radial-gradient(circle at 50% 120%, #5092a8, #e25c2a 10%, #055194 80%, #579ab3 100%);
+  background: radial-gradient(circle at 50% 120%, #92a2f4, rgb(226 124 113) 10%, rgb(23, 103, 184) 80%, #92a2f3 100%);
 }
 
 .smaller-container {
@@ -546,7 +545,7 @@ button:hover {
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   z-index: -1;
   display: block;
   background: #000;
@@ -581,8 +580,8 @@ button:hover {
   max-height: 150px;
   border-radius: 50%;
   position: relative;
-  top: 6px;
-  right: 1px;
+  top: 7px;
+  right: 0px;
 }
 
 #prompt-pros-1 {
@@ -590,7 +589,7 @@ button:hover {
   max-height: 100px;
   border-radius: 50%;
   position: relative;
-  top: 0px;
+  top: 1px;
   right: 1px;
 }
 
@@ -599,7 +598,7 @@ button:hover {
   max-height: 100px;
   border-radius: 50%;
   position: relative;
-  top: 0px;
+  top: 1px;
   right: 1px;
 }
 
@@ -608,8 +607,8 @@ button:hover {
   max-height: 100px;
   border-radius: 50%;
   position: relative;
-  top: 2px;
-  right: 1px;
+  top: 2.5px;
+  right: 0px;
 }
 
 #pro_heading_box {
@@ -1163,13 +1162,23 @@ textarea {
     background-color: rgba(139, 139, 148, 0.04);
   }
 
-  nav:has(#input-6:checked) .nav-list {
+  nav:has(#input-1:checked) .nav-list {
     display: block;
   }
 
-  nav:has(#input-6:checked) .toggle-text {
+  nav:has(#input-1:checked) .toggle-text{
     display: inline;
   }
+
+  #input-6:checked .column-position {
+    color: #5092a8;
+  }
+
+  .column-position + input[type=checkbox]:checked {
+    position: relative;
+    z-index: -2;
+}
+
 
   .get-started {
     max-width: 500px;
@@ -1188,6 +1197,19 @@ textarea {
   .background-img {
     background-size: 85%;
     background-position: 40% 95%;
+  }
+
+  #landing-text {
+    width: 100vw;
+    padding: 50px;
+    position: absolute;
+    top: -73px;
+    z-index: 20;
+    font-size: .55em;
+  }
+
+  .h-container {
+    float: left;
   }
 }
 

@@ -19,80 +19,69 @@
             </span>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <label for="input-1">
-                        <input type="radio" id="input-1" name="nav-toggle" class="radio-display"
-                            onClick=" location.href='index.html' ">
-                        <span class="btn mobile-responsive">
-                            <i class="mobile-responsive btn-icon ri-home-3-fill"></i>
-                            <span class="btn-text toggle-text">
-                                Home
-                            </span>
+                    <span class="btn mobile-responsive">
+                        <a href="index.html" class="mobile-responsive btn-icon">
+                            <i class="ri-home-3-fill"></i>
+                        </a>
+                        <span class="btn-text toggle-text">
+                            <a href="index.html">Home</a>
                         </span>
-                    </label>
+                    </span>
                 </li>
 
                 <li class="nav-item border-top">
-                    <label for="input-2">
-                        <input type="radio" id="input-2" name="nav-toggle" class="radio-display" onClick="reload">
-                        <span class="btn mobile-responsive">
-                            <a href="#about_0" target="_blank" class="mobile-responsive btn-icon">
-                                <i class="ri-information-fill"></i>
-                            </a>
-                            <span class="btn-text toggle-text">
-                                <a href="#about" target="_blank">About</a>
-                            </span>
+                    <span class="btn mobile-responsive">
+                        <a href="index.html#about_0" target="_blank" class="mobile-responsive btn-icon">
+                            <i class="ri-information-fill"></i>
+                        </a>
+                        <span class="btn-text toggle-text">
+                            <a href="index.html#about" target="_blank">About</a>
                         </span>
-                    </label>
+                    </span>
                 </li>
 
                 <li class="nav-item border-top">
-                    <label for="input-3">
-                        <input type="radio" id="input-3" name="nav-toggle" class="radio-display"
-                            onClick=" location.href='index.html' ">
-                        <span class="btn mobile-responsive">
-                            <i class="mobile-responsive btn-icon ri-service-fill"></i>
-                            <span class="btn-text toggle-text">
-                                Services
-                            </span>
+                    <span class="btn mobile-responsive">
+                        <a href="" target="_blank" class="mobile-responsive btn-icon">
+                            <i class="ri-service-fill"></i>
+                        </a>
+                        <span class="btn-text toggle-text">
+                            <a href="" target="_blank">Services</a>
                         </span>
-                    </label>
+                    </span>
                 </li>
 
                 <li class="nav-item border-top">
-                    <label for="input-4">
-                        <input type="radio" id="input-4" name="nav-toggle" class="radio-display"
-                            onClick=" location.href='index.html' ">
-                        <span class="btn mobile-responsive">
-                            <i class="mobile-responsive btn-icon ri-user-smile-fill"></i>
-                            <span class="btn-text toggle-text">
-                                User Cases
-                            </span>
+                    <span class="btn mobile-responsive">
+                        <a href="" target="_blank" class="mobile-responsive btn-icon">
+                            <i class="ri-user-smile-fill"></i>
+                        </a>
+                        <span class="btn-text toggle-text">
+                            <a href="" target="_blank">User Cases</a>
                         </span>
-                    </label>
+                    </span>
                 </li>
 
                 <li class="nav-item border-top">
-                    <label for="input-5">
-                        <input type="radio" id="input-5" name="nav-toggle" class="radio-display"
-                            onClick=" location.href='index.html' ">
-                        <span class="btn mobile-responsive">
-                            <i class="mobile-responsive btn-icon ri-wallet-3-fill"></i>
-                            <span class="btn-text toggle-text">
-                                Pricing
-                            </span>
+                    <span class="btn mobile-responsive">
+                        <a href="" target="_blank" class="mobile-responsive btn-icon">
+                            <i class="ri-wallet-3-fill"></i>
+                        </a>
+                        <span class="btn-text toggle-text">
+                            <a href="" target="_blank">Pricing</a>
                         </span>
-                    </label>
+                    </span>
                 </li>
             </ul>
             <ul>
                 <li class="nav-item">
-                    <label for="input-6">
-                        <input type="checkbox" id="input-6" name="nav-toggle" class="radio-display">
+                    <label for="input-1">
+                        <input type="checkbox" id="input-1" name="nav-toggle" class="radio-display">
                         <span class="btn active-btn">
                             <i class="active-icon ri-align-center"></i>
                             <!-- <a href=""><i class="active-icon btn-icon ri-rocket-2-fill"></i></a> -->
-                            <span class="btn-text active-text">
-                                Get Started
+                            <span class="btn-text">
+                                <a href="form.html" class="active-text">Get Started</a>
                             </span>
                         </span>
                     </label>
@@ -107,9 +96,9 @@
 
     <section>
         <div class="column background-img">
-            
-             
-           
+
+
+
             <form class="get-started" method="POST" action="https://formdump.codeinstitute.net/">
                 <h2>Lets Get Started!</h2>
                 <label class="label-text">First Name</label>
@@ -120,12 +109,12 @@
                 <input class="form-input" type="email" id="email" name="email_address" required>
 
                 <h5>Membership Plans</h5>
-                <label>Basic</label>
-                <input type="radio">
-                <label>Start-up</label>
-                <input type="radio">
-                <label>Enterprise</label>
-                <input type="radio">
+                <label for="basic_plan">Basic</label>
+                <input type="radio" id="basic_plan" name="member_plan" value="basic_plan" required>
+                <label for="start_up_plan">Start-up</label>
+                <input type="radio" id="start_up_plan" name="member_plan" value="start_up_plan" required>
+                <label for="enterprise_plan">Enterprise</label>
+                <input type="radio" id="enterprise_plan" name="member_plan" value="enterprise_plan" required>
 
                 <h5>Enquiry(s)</h5>
                 <label>Ad</label>
@@ -136,9 +125,11 @@
                 <input type="checkbox">
 
                 <h5>Ask our Prompt Pros!</h4>
-                <textarea>comment...</textarea>
-            </form>   
-        </div>     
+                    <textarea>comment...</textarea>
+
+                    <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
 
