@@ -482,14 +482,13 @@ button:hover {
 
 }
 
-/* page-break shape */
-.diagonal {
+/* page-break */
+.page_block {
   position: relative;
   z-index: -20;
   padding: 25px;
   height: 250px;
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
 }
 
 /* hero image */
@@ -510,15 +509,15 @@ button:hover {
   height: 150px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 62px;
   z-index: -1;
   background: radial-gradient(circle at 50% 120%, rgba(243, 112, 90, 1), rgb(255, 255, 255) 10%, #5c7af2 80%, #9fd4fb 100%);
 }
 
 .medium-container {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 20px;
@@ -561,18 +560,16 @@ button:hover {
 }
 
 #pro-backdrop {
-  max-width: 500px; 
   padding: 42px;
   /* text-align: left; */
-  border-radius: 20px 90px 0 0;
   /* margin-bottom: 20px; */
   /* margin-top: 15px; */
   /* margin-right: 20px; */
   position: relative;
   /* margin-left: 20px; */
   /* height: 95dvh; */
-  background-color: #5c7af2;
   z-index: -10;
+  background: linear-gradient(180deg, rgba(92,122,242,1) 9%, rgba(68,82,109,1) 85%);
 }
 
 #team-boss {
@@ -585,8 +582,8 @@ button:hover {
 }
 
 #prompt-pros-1 {
-  width: 100px;
-  max-height: 100px;
+  width: 75px;
+  max-height: 75px;
   border-radius: 50%;
   position: relative;
   top: 1px;
@@ -594,8 +591,8 @@ button:hover {
 }
 
 #prompt-pros-2 {
-  width: 100px;
-  max-height: 100px;
+  width: 75px;
+  max-height: 75px;
   border-radius: 50%;
   position: relative;
   top: 1px;
@@ -603,8 +600,8 @@ button:hover {
 }
 
 #prompt-pros-3 {
-  width: 100px;
-  max-height: 100px;
+  width: 75px;
+  max-height: 75px;
   border-radius: 50%;
   position: relative;
   top: 2.5px;
@@ -613,14 +610,44 @@ button:hover {
 
 #pro_heading_box {
   /* border: 1px solid blue; */
-  width: 80%;
+  width: 250px;
   position: absolute;
   height: 500px;
-  top: -416px;
+  top: -150px;
   /* margin-left: auto; */
   /* margin-right: 4px; */
   left: 10px;
-  transform: rotate(354deg);
+  /* transform: rotate(354deg);*/
+}
+
+#prompt_pro_text_box {
+  font-family: roboto;
+  border-bottom: 3px solid #495cd1;
+  text-align: right;
+  /* padding: 8px; */
+  /* border-radius: 25px; */
+  right: 47px;
+  position: relative;
+  top: 10px;
+  line-height: 61px;
+  letter-spacing: 2px;
+  width: 80vw;
+}
+
+#prompt_pro_text {
+  font-family: roboto;
+  font-size: 2.5em;
+  width: 43px;
+  /* border: 2px solid black; */
+  color: #495cd1;
+}
+
+#text_pros {
+  letter-spacing: -1px;
+}
+
+#text_s {
+  font-size: .8em;
 }
 
 #team_heading_who {
@@ -893,6 +920,16 @@ td {
   border-radius: 2px;
 }
 
+form input[type=checkbox] {
+  accent-color: #e97060;
+  color: #f1f1f1;
+}
+
+form input[type=radio] {
+  accent-color: #e97060;
+  color: #f1f1f1;
+}
+
 form h2 {
   font-family: PT Sans;
   letter-spacing: 2px;
@@ -926,6 +963,17 @@ textarea {
   font-family: roboto;
   background-color: transparent;
   border: 1px solid #f1f1f1;
+}
+
+#form-submit {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  font-family: roboto;
+  margin-top: 10px;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+
 }
 
 .background-img {
@@ -1166,7 +1214,7 @@ textarea {
     display: block;
   }
 
-  nav:has(#input-1:checked) .toggle-text{
+  nav:has(#input-1:checked) .toggle-text {
     display: inline;
   }
 
@@ -1174,10 +1222,10 @@ textarea {
     color: #5092a8;
   }
 
-  .column-position + input[type=checkbox]:checked {
+  .column-position+input[type=checkbox]:checked {
     position: relative;
     z-index: -2;
-}
+  }
 
 
   .get-started {

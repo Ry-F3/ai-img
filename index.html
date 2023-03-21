@@ -110,8 +110,8 @@
                 </div>
 
                 <div class="overlay-btn z-index-neg">
-                    <button id="square-btn">
-                        <a href="form.html"><i class="ri-direction-line"></i></a>
+                    <button type="submit" onclick="location.href='form.html';" id="square-btn">
+                        <i class="ri-direction-line"></i>
                     </button>
                 </div>
                 <div id="landing-text">
@@ -127,7 +127,7 @@
 
     <!-- Section About Page -->
     <section>
-        <a id="about"></a></a>
+        <a id="about"></a>
         <a id="about_0"></a>
         <div class="page-break color-second">
             <div class="h-container">
@@ -139,7 +139,7 @@
 
 
         <div class="row">
-            <div  class="column column-height column-position color-second z-index-neg">
+            <div class="column column-height column-position color-second z-index-neg">
                 <div class="box-about">
                     <div class="circle-container">
                         <div class="circle-inner">
@@ -201,26 +201,25 @@
     </section>
 
     <!-- page shape -->
-    <div class="diagonal color-second"></div>
-
-    <!-- Hero Image -->
-    <section>
-        <div class="column page-break" id="scroll_img"></div>
-    </section>
+    <div class="page_block color-second"></div>
 
     <!-- Team Page -->
     <section id="pro-backdrop">
         <div class="header-box">
-            <container id="pro_heading_box">
+            <div id="pro_heading_box">
                 <h1 id="team_heading_who">Who</h1>
                 <h2 id="team_heading_are">are</h2>
                 <h3 id="team_heading_we">we?</h3>
-            </container>
+            </div>
+            <div id="prompt_pro_text_box">
+                <h3 id="prompt_pro_text">The Prompt <strong id="text_pros">Pro<em id="text_s">s</em></strong> <span><i
+                            class="fas fa-laptop-code"></i></span></h3>
+            </div>
             <div class="large-container">
                 <img src="assets/images/web/team-boss-.png" id="team-boss" alt="boss of the prompt pros">
             </div>
         </div>
-        <div class="row">
+        <div class="row row_revert">
             <div class="column">
                 <div class="medium-container">
                     <img src="assets/images/web/prompt-pro-2-.png" id="prompt-pros-1" alt="prompt pro techie">
@@ -485,7 +484,6 @@
 
 
     <script src="https://kit.fontawesome.com/868033ccb5.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
