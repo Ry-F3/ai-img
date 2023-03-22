@@ -187,7 +187,11 @@ input:checked~.btn {
 /* column color secondary */
 .color-second {
   background-color: #42526e;
+}
 
+/* gradient color */
+.gradient {
+  background: linear-gradient(180deg, rgba(92,122,242,1) 10%, rgba(255,255,255,1) 30%);
 }
 
 /* color blank */
@@ -261,7 +265,7 @@ div h4::before {
   backdrop-filter: saturate(180%) blur(10px);
 }
 
-button {
+.btn-landing-page {
   flex-direction: column;
   display: flex;
   margin: 4px;
@@ -655,7 +659,7 @@ button:hover {
   position: relative;
   float: left;
   font-size: 7rem;
-  font-family: 'roboto';
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   top: 4px;
   left: -5px;
 }
@@ -665,7 +669,7 @@ button:hover {
   position: relative;
   float: left;
   font-size: 4rem;
-  font-family: 'roboto';
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   top: -45px;
   left: 48px;
 }
@@ -675,40 +679,63 @@ button:hover {
   position: relative;
   float: left;
   font-size: 3rem;
-  font-family: 'roboto';
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   top: 4px;
   left: 12px;
 }
 
 #article_pro {
-  color: #f1f1f1bd;
-  font-family: 'roboto';
-  top: 7px;
+  color: #44526d;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
+  top: 80px;
   position: absolute;
-  line-height: 22px;
+  line-height: 14px;
   font-size: .7em;
-  width: 192px;
-  /* margin-left: auto; */
-  /* margin-right: -40px; */
+  width: 128px;
   right: 0px;
+  height: 100px;
+  font-weight: 900;
+  text-align: justify;
+}
+
+#btn-get-started {
+  flex-direction: column;
+  display: flex;
+  /* margin: 4px; */
+  padding: 10px;
+  width: 113px;
+  justify-content: center;
+  height: 60px;
+  border-radius: 20px;
+  border: 4px #c1caf8;
+  border-style: outset;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all .2s ease-in-out;
+  background-color: #4c5a83;
+  color: white;
+  bottom: 115px;
+  position: relative;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
+  letter-spacing: 1.5px;
 }
 
 .margin-bottom {
   margin-bottom: 150px;
 }
 
-
-
 /* Roadmap & Services Section */
 
 #roadmap-h1 {
-  font-family: 'pt sans';
+  font-family: 'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   color: #5c7af2;
   position: relative;
-  font-size: 6rem;
+  font-size: 4rem;
   line-height: 95px;
   letter-spacing: 08px;
-  bottom: -53px;
+  bottom: -42px;
+  border-top: 2px solid #5a6dc3;
+  padding: 35px;
 }
 
 .roadmap-container {
@@ -745,7 +772,7 @@ button:hover {
 }
 
 .roadmap-text h2 {
-  font-family: 'pt sans';
+  font-family: 'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   font-weight: 800;
   font-size: 20px;
   line-height: 30px;
@@ -754,7 +781,7 @@ button:hover {
 }
 
 .roadmap-text p {
-  font-family: 'roboto';
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   font-size: .7em;
   line-height: 23px;
   font-weight: 300;
@@ -769,7 +796,7 @@ button:hover {
 
 .roadmap-text .tagline {
   color: #f3f3f7ab;
-  font-family: 'roboto';
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -780,7 +807,7 @@ button:hover {
   padding: 2px;
   font-weight: 900;
   /* display: inline-block; */
-  font-family: 'monospace';
+  font-family: 'Monospace', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   border-radius: 5px 5px 0;
   background-color: rgba(243, 112, 90, 1);
   border: 1px solid #44526d57;
@@ -820,11 +847,17 @@ button:hover {
 
 .testimonial-text {
   text-align: left;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
-div #t_heading {
-  position: relative;
-  bottom: 20px;
+.t_name {
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+  font-family: 'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.t_sector {
+ margin-bottom: 10px;
 }
 
 .speech-bubble {
@@ -880,7 +913,9 @@ div #t_heading {
   transform: rotate(45deg) skewX(75deg);
 }
 
-/* Gallery */
+/* page-break */
+
+
 
 /* Pricing */
 
