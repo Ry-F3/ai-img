@@ -308,7 +308,7 @@ button:hover {
   height: 50px;
   left: 18vw;
   font-size: 2rem;
-  color: #5c7af2;
+  color: rgb(243 112 90 / 82%);
 }
 
 #landing-text {
@@ -656,9 +656,8 @@ button:hover {
   float: left;
   font-size: 7rem;
   font-family: roboto;
-  top: -2px;
+  top: 4px;
   left: -5px;
-
 }
 
 #team_heading_are {
@@ -679,17 +678,37 @@ button:hover {
   font-family: roboto;
   top: 4px;
   left: 12px;
+}
 
+#article_pro {
+  color: #f1f1f1bd;
+  font-family: roboto;
+  top: 7px;
+  position: absolute;
+  line-height: 22px;
+  font-size: .7em;
+  width: 192px;
+  /* margin-left: auto; */
+  /* margin-right: -40px; */
+  right: 0px;
+}
+
+.margin-bottom {
+  margin-bottom: 150px;
 }
 
 
 
 /* Roadmap & Services Section */
 
-#roadmap_h1 {
-  color: #555555;
+#roadmap-h1 {
+  font-family: pt sans;
+  color: #5c7af2;
   position: relative;
-  margin-top: 80px;
+  font-size: 6rem;
+  line-height: 95px;
+  letter-spacing: 08px;
+  bottom: -53px;
 }
 
 .roadmap-container {
@@ -725,24 +744,47 @@ button:hover {
   margin-bottom: 0;
 }
 
-.roadmap-text h1 {
-  font-weight: 500;
-  font-size: 25px;
+.roadmap-text h2 {
+  font-family: pt sans;
+  font-weight: 800;
+  font-size: 20px;
   line-height: 30px;
   margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 .roadmap-text p {
-  font-size: 16px;
-  line-height: 30px;
+  font-family: roboto;
+  font-size: .7em;
+  line-height: 23px;
   font-weight: 300;
+  letter-spacing: .5px;
 }
 
-.roadmap-text .date {
+.roadmap-text p a {
+  color: rgba(243, 112, 90, 1);
+  font-size: 2em;
+  margin-left: 5px;
+}
+
+.roadmap-text .tagline {
+  color: #f3f3f7ab;
+  font-family: roboto;
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 10px;
   letter-spacing: 2px;
+}
+
+.roadmap-text .tagline em {
+  padding: 2px;
+  font-weight: 900;
+  /* display: inline-block; */
+  font-family: monospace;
+  border-radius: 5px 5px 0;
+  background-color: rgba(243, 112, 90, 1);
+  border: 1px solid #44526d57;
+  color: rgb(255, 255, 255); 
 }
 
 /* Testimonial Section */
@@ -800,7 +842,13 @@ div #t_heading {
 
 .speech-bubble p {
   transform: rotate(359deg) rotateY(191deg);
-  font-size: 15px;
+  font-size: .7em;
+  line-height: 25px;
+  text-align: start;
+  color: #637bee;
+  font-family: 'PT Sans';
+  bottom: 10px;
+  position: relative;
 }
 
 .speech-bubble:before,
@@ -1120,7 +1168,7 @@ textarea {
     left: -30px;
   }
 
-  .roadmap-text .date {
+  .roadmap-text .tagline {
     position: absolute;
     top: -30px;
   }
