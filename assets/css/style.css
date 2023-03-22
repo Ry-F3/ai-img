@@ -123,7 +123,7 @@ nav .nav-item {
 
 .btn .btn-text {
   color: slategray;
-  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family:  'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   font-size: 1.2em;
   font-weight: 500;
   transition: all .2s;
@@ -197,7 +197,7 @@ input:checked~.btn {
 
 /* Mobile First Design - content home page */
 div div h1 {
-  font-family: PT Sans, Arial, Helvetica, sans-serif;
+  font-family:  'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   letter-spacing: .5px;
   margin: 4px;
   color: #f1f1f1;
@@ -205,7 +205,7 @@ div div h1 {
 }
 
 div h4 {
-  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family:  'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   margin: 20px auto;
   color: #f3f3f7;
   text-align: center;
@@ -279,7 +279,7 @@ button {
 }
 
 button em {
-  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family:  'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   font-weight: 1000;
   letter-spacing: .15em;
   color: slategray;
@@ -318,7 +318,7 @@ button:hover {
   top: -65px;
   z-index: 20;
   font-size: .75em;
-  font-family: roboto;
+  font-family:  'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   color: #495cd1;
 }
 
@@ -438,7 +438,7 @@ button:hover {
 .l-container>h2 {
   top: 30px;
   color: #f1f1f1;
-  font-family: PT Sans, Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family:  'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 .p-container h3 {
@@ -447,7 +447,7 @@ button:hover {
   border: 1px inset rgb(239 229 229 / 20%);
   border-radius: 2px;
   padding: 10px;
-  font-family: PT Sans, Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 .p-container p {
@@ -456,12 +456,12 @@ button:hover {
   font-weight: 600;
   color: #f1f1f1bd;
   letter-spacing: .15px;
-  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 #about-logo {
   font-size: 40px;
-  font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 #robot {
@@ -621,7 +621,7 @@ button:hover {
 }
 
 #prompt_pro_text_box {
-  font-family: roboto;
+  font-family:  'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   border-bottom: 3px solid #495cd1;
   text-align: right;
   /* padding: 8px; */
@@ -635,7 +635,7 @@ button:hover {
 }
 
 #prompt_pro_text {
-  font-family: roboto;
+  font-family:  'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   font-size: 2.5em;
   width: 43px;
   /* border: 2px solid black; */
@@ -655,7 +655,7 @@ button:hover {
   position: relative;
   float: left;
   font-size: 7rem;
-  font-family: roboto;
+  font-family: 'roboto';
   top: 4px;
   left: -5px;
 }
@@ -665,7 +665,7 @@ button:hover {
   position: relative;
   float: left;
   font-size: 4rem;
-  font-family: roboto;
+  font-family: 'roboto';
   top: -45px;
   left: 48px;
 }
@@ -675,14 +675,14 @@ button:hover {
   position: relative;
   float: left;
   font-size: 3rem;
-  font-family: roboto;
+  font-family: 'roboto';
   top: 4px;
   left: 12px;
 }
 
 #article_pro {
   color: #f1f1f1bd;
-  font-family: roboto;
+  font-family: 'roboto';
   top: 7px;
   position: absolute;
   line-height: 22px;
@@ -702,7 +702,7 @@ button:hover {
 /* Roadmap & Services Section */
 
 #roadmap-h1 {
-  font-family: pt sans;
+  font-family: 'pt sans';
   color: #5c7af2;
   position: relative;
   font-size: 6rem;
@@ -745,7 +745,7 @@ button:hover {
 }
 
 .roadmap-text h2 {
-  font-family: pt sans;
+  font-family: 'pt sans';
   font-weight: 800;
   font-size: 20px;
   line-height: 30px;
@@ -754,7 +754,7 @@ button:hover {
 }
 
 .roadmap-text p {
-  font-family: roboto;
+  font-family: 'roboto';
   font-size: .7em;
   line-height: 23px;
   font-weight: 300;
@@ -769,7 +769,7 @@ button:hover {
 
 .roadmap-text .tagline {
   color: #f3f3f7ab;
-  font-family: roboto;
+  font-family: 'roboto';
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -780,7 +780,7 @@ button:hover {
   padding: 2px;
   font-weight: 900;
   /* display: inline-block; */
-  font-family: monospace;
+  font-family: 'monospace';
   border-radius: 5px 5px 0;
   background-color: rgba(243, 112, 90, 1);
   border: 1px solid #44526d57;
@@ -795,6 +795,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -809,7 +810,7 @@ button:hover {
 .testimonial ul li {
   padding: 25px;
   width: 350px;
-  background: rgba(92, 122, 242, 1.8);
+  background: rgba(92, 122, 242, 1);
   box-shadow: 10px 10px 10px 5px rgba(48, 46, 46, 0.3);
   color: white;
   border-radius: 20px;
@@ -835,7 +836,7 @@ div #t_heading {
   border-radius: 0.25em;
   transform: rotate(348deg) rotateY(188deg);
   background: #5c7af2;
-  font: 2em/4 roboto;
+  font: 2em/4 'roboto';
   text-align: center;
   z-index: 1;
 }
@@ -894,7 +895,6 @@ div #t_heading {
 
 .plan {
   display: flex;
-  align-items: left;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -979,7 +979,7 @@ form input[type=radio] {
 }
 
 form h2 {
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   letter-spacing: 2px;
   margin-bottom: 10px;
   padding-bottom: 20px;
@@ -989,14 +989,14 @@ form h2 {
 form h5 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   letter-spacing: 2px;
   color: #f1f1f1;
 }
 
 form label {
   padding: 5px;
-  font-family: roboto;
+  font-family: 'roboto';
   color: #f1f1f1;
 }
 
@@ -1008,7 +1008,7 @@ textarea {
   width: 100%;
   height: 35px;
   color: #f1f1f1;
-  font-family: roboto;
+  font-family: 'roboto';
   background-color: transparent;
   border: 1px solid #f1f1f1;
 }
@@ -1017,7 +1017,7 @@ textarea {
   width: 100px;
   height: 40px;
   background-color: transparent;
-  font-family: roboto;
+  font-family: 'roboto';
   margin-top: 10px;
   border: 1px solid #f1f1f1;
   color: #f1f1f1;
