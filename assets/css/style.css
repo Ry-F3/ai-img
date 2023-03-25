@@ -416,17 +416,17 @@ div aside em {
 }
 
 .l-container {
-  height: 60%;
   width: 40%;
   position: relative;
-  bottom: -50px;
+  bottom: -40px;
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  z-index: -5;
+  margin-bottom: -50px;
 }
 
 .l-container>h2 {
-  top: 30px;
   color: #f1f1f1;
   font-family: 'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
