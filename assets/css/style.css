@@ -20,6 +20,10 @@ body {
   height: 750px;
 }
 
+.column-height_100 {
+  height: 100dvh;
+}
+
 .column-height_80 {
   height: 80dvh;
 }
@@ -917,7 +921,7 @@ textarea {
   background: url("../images/web/form_1.png") center center / cover no-repeat;
   background-size: 40%;
   background-position: 86% 40%;
-  background-color: rgb(99 123 238);
+  background-color: rgb(92 122 243);
 }
 
 /* footer */
