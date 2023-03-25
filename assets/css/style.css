@@ -1178,6 +1178,9 @@ textarea {
     bottom: 10px;
   }
   
+  .h-container, .l-container { 
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px) {
