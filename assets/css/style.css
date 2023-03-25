@@ -292,15 +292,12 @@ div div h5 {
   justify-content: center;
   height: 50px;
   border-radius: 10px 20px;
-  border: 4px white;
-  border-style: inset;
+  /* border: 4px white; */
+  /* border-style: inset; */
   margin-left: 50px;
   margin-top: 30px;
   margin-right: auto;
   transition: all .2s ease-in-out;
-  background-color: rgba(9, 30, 66, 0.08);
-  float: left;
-  clear: both;
 }
 
 #square-btn {
@@ -1038,24 +1035,18 @@ textarea {
   }
 
   .btn-landing-page {
-    flex-direction: column;
-    display: flex;
-    /* margin: 5px; */
     padding: 10px;
-    /* margin-right: 41px; */
-    width: 103px;
-    /* justify-content: center; */
+    width: 101px;
     height: 50px;
     border-radius: 10px 20px;
     border: 4px white;
-    border-style: inset;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-right: 20px;
+    border-style: double;
+    margin-left: auto;
+    margin-top: 283px;
+    margin-right: 10px;
     transition: all .2s ease-in-out;
-    background-color: #cdddfd;
+    background-color: #cdddfdf2;
     float: right;
-    clear: both;
   }
 
   .chevron {
@@ -1073,7 +1064,7 @@ textarea {
     font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
     font-weight: 1000;
     letter-spacing: .15em;
-    color: #42526e;
+    color: #062745;
     font-size: medium;
   }
 
@@ -1174,6 +1165,18 @@ textarea {
     z-index: -9;
     margin-top: 0;
   }
+
+  #home_box {
+    background-size: 450px;
+    background-position: 44% 10%;
+  }
+
+  .btn-landing-page {
+    margin-top: 207px;
+    margin-right: 7px;
+    float: right;
+  }
+  
 }
 
 @media screen and (max-width: 280px) {
@@ -1184,4 +1187,5 @@ textarea {
   .row_revert {
     flex-direction: column;
   }
+
 }
