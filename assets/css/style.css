@@ -17,7 +17,7 @@ body {
 
 /* column layout */
 .column-height {
-  height: 100vh;
+  height: 750px;
 }
 
 .column-height_80 {
@@ -1036,7 +1036,7 @@ textarea {
 
   .btn-landing-page {
     padding: 10px;
-    width: 101px;
+    width: 27vw;
     height: 50px;
     border-radius: 10px 20px;
     border: 4px white;
@@ -1167,7 +1167,7 @@ textarea {
   }
 
   #home_box {
-    background-size: 450px;
+    background-size: 415px;
     background-position: 44% 10%;
   }
 
@@ -1176,10 +1176,14 @@ textarea {
     margin-right: 7px;
     float: right;
   }
+
+  #btn-get-started {
+    bottom: 10px;
+  }
   
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 320px) {
   .chevron {
    display: none;
   }
