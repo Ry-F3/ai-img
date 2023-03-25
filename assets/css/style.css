@@ -240,19 +240,7 @@ div div h5 {
 }
 
 #home_box {
-  /* width: 285px;
-  height: 350px;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 20px 40px;
-  border: 1px solid rgba(0, 0, 0, 0.18);
-  border-style: outset;
-  background: url('../images/web/data_2.jpg') no-repeat;
-  background-size: 100;
-  background-position: 27% 5%;
-  box-shadow: 5px 10px #42526e47; */
-  width: 75vw;
+  width: 50vw;
   height: 350px;
   margin-top: 30px;
   margin-right: auto;
@@ -269,35 +257,22 @@ div div h5 {
 }
 
 .btn-landing-page {
-  /* flex-direction: column;
-  display: flex;
-  margin: 4px;
-  padding: 10px;
-  width: 230px;
-  justify-content: center;
-  height: 50px;
-  border-radius: 10px 20px;
-  border: 4px white;
-  border-style: inset;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all .2s ease-in-out;
-  background-color: white; */
   flex-direction: column;
   display: flex;
   margin: 5px;
-  padding: 10px;
-  margin-right: 41px;
-  width: 230px;
   justify-content: center;
+  padding: 10px;
+  width: 13vw;
   height: 50px;
   border-radius: 10px 20px;
-  /* border: 4px white; */
-  /* border-style: inset; */
-  margin-left: 50px;
-  margin-top: 30px;
-  margin-right: auto;
+  border: 4px white;
+  border-style: double;
+  margin-left: 25px;
+  margin-top: 259px;
+  margin-right: 10px;
   transition: all .2s ease-in-out;
+  background-color: #cdddfdf2;
+  float: left;
 }
 
 #square-btn {
@@ -431,20 +406,14 @@ div aside em {
 
 .h-container {
   width: 50%;
-  height: 150px;
-  /* border: 1px solid rgb(23, 103, 184); */
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  top: 50px;
   text-align: center;
-  display: flex;
 }
 
 .l-container {
   height: 60%;
   width: 40%;
-  /* border: 2px solid greenyellow; */
   position: relative;
   bottom: -50px;
   right: 0;
@@ -687,7 +656,6 @@ div aside em {
   transition: all .2s ease-in-out;
   background-color: transparent;
   color: #f1f1f1;
-  bottom: 72px;
   position: relative;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   letter-spacing: 1.5px;
@@ -788,12 +756,22 @@ div aside em {
 
 /* Pricing */
 
+#pricing_header {
+  z-index: -2;
+  color: #f1f1f1;
+  position: relative;
+  top: -221px;
+  border-top: 2px solid #495cd1;
+}
+
 .pricing-container {
   max-width: 975px;
   margin-left: auto;
   margin-right: auto;
   background: url(../images/web/pricing.webp) center center / cover no-repeat fixed;
+  margin-top: -160px;
   background-size: 85%;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 .plan {
@@ -844,8 +822,11 @@ td {
   margin: auto 0;
   border-radius: 8px;
   text-align: center;
-  color: #f1f1f1;
   background: rgba(243, 112, 90, 1);
+}
+
+.price-btn a {
+  color: #f1f1f1;
 }
 
 /** form **/
@@ -890,7 +871,7 @@ form h2 {
   font-family: 'PT Sans';
   letter-spacing: 2px;
   margin-bottom: 10px;
-  margin-top: 22px;
+  margin-top: -14px;
   padding-bottom: 20px;
   color: #f1f1f1;
 }
@@ -937,6 +918,16 @@ textarea {
   background-size: 40%;
   background-position: 86% 40%;
   background-color: rgb(99 123 238);
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  padding: 25px;
+  border-top: 1px solid #e97060;
+  background: #e97060;
+  color: #f1f1f1;
+
 }
 
 /* Responsive design (min-width) */
@@ -1020,18 +1011,9 @@ textarea {
   #home_box {
     width: 90vw;
     height: 45%;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 20px 40px;
-    border: 1px solid rgba(0, 0, 0, 0.18);
-    border-style: outset;
-    background: url(../images/web/robot.jpeg) no-repeat;
     background-size: 600px;
     background-position: 31% 130%;
-    box-shadow: 5px 10px #42526e47;
-    overflow: hidden;
-    background-color: white;
+
   }
 
   .btn-landing-page {
@@ -1131,7 +1113,7 @@ textarea {
     margin-right: auto;
     position: static;
     margin-left: auto;
-    height: 95dvh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
   }
 
@@ -1151,6 +1133,10 @@ textarea {
 
   .h-container {
     float: left;
+  }
+
+  form h2 {
+    margin-top: 22px;
   }
 }
 
