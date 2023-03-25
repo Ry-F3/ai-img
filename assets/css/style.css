@@ -25,7 +25,7 @@ body {
 }
 
 .column-height_80 {
-  height: 100dvh;
+  height: 80dvh;
 }
 
 .column-height_50 {
@@ -104,7 +104,7 @@ body {
 
 .header_box {
   width: 100%;
-  height: 40dvh;
+  height: 20dvh;
   position: relative;
   z-index: -5;
 }
@@ -363,11 +363,11 @@ div aside em {
 /* Section About */
 .box-about {
   width: 80%;
-  height: 100%;
+  height: 550px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10px;
+  margin-top: 178px;
   margin-bottom: 26px;
   z-index: -2;
   text-align: center;
@@ -375,8 +375,8 @@ div aside em {
   border: 1px solid rgba(0, 0, 0, 0.18);
   border-style: outset;
   background: rgba(156, 150, 150, 0.18);
-  /* background: rgb(91 122 241 / 40%); */
   box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.3);
+
 }
 
 .circle-container {
@@ -1009,6 +1009,13 @@ textarea {
     color: #f1f1f1;
   }
 
+}
+
+@media screen and (max-width: 780px) {
+  .btn-landing-page {
+    width: 12vw;
+    margin-right: 4px;
+  }
 }
 
 @media screen and (max-width: 700px) {
