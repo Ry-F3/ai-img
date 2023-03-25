@@ -240,7 +240,7 @@ div div h5 {
 }
 
 #home_box {
-  width: 285px;
+  /* width: 285px;
   height: 350px;
   margin-top: 30px;
   margin-right: auto;
@@ -248,14 +248,28 @@ div div h5 {
   border-radius: 20px 40px;
   border: 1px solid rgba(0, 0, 0, 0.18);
   border-style: outset;
-  background: url(../images/web/data.webp) no-repeat;
-  background-size: 301%;
+  background: url('../images/web/data_2.jpg') no-repeat;
+  background-size: 100;
   background-position: 27% 5%;
+  box-shadow: 5px 10px #42526e47; */
+  width: 75vw;
+  height: 350px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-style: outset;
+  background: url(../images/web/robot.jpeg) no-repeat;
+  background-size: 600px;
+  background-position: 102% 55%;
   box-shadow: 5px 10px #42526e47;
+  overflow: hidden;
+  background-color: white;
 }
 
 .btn-landing-page {
-  flex-direction: column;
+  /* flex-direction: column;
   display: flex;
   margin: 4px;
   padding: 10px;
@@ -268,7 +282,25 @@ div div h5 {
   margin-left: auto;
   margin-right: auto;
   transition: all .2s ease-in-out;
-  background-color: white;
+  background-color: white; */
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  margin-right: 41px;
+  width: 230px;
+  justify-content: center;
+  height: 50px;
+  border-radius: 10px 20px;
+  border: 4px white;
+  border-style: inset;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: auto;
+  transition: all .2s ease-in-out;
+  background-color: rgba(9, 30, 66, 0.08);
+  float: left;
+  clear: both;
 }
 
 #square-btn {
@@ -280,6 +312,7 @@ div div h5 {
   float: right;
   font-size: 66px;
   color: rgb(243 112 90 / 1);
+  display: none;
 }
 
 
@@ -307,6 +340,7 @@ button:hover {
   float: right;
   margin-top: -72px;
   margin-right: 23px;
+  display: none;
 }
 
 div aside em {
@@ -320,14 +354,13 @@ div aside em {
 
 .chevron {
   /* page effect at the bottom of column two */
-  width: 300px;
-  height: 100dvh;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 658px;
-  z-index: -2;
-
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 218px;
+    z-index: -2;
 }
 
 .chevron::after,
@@ -987,6 +1020,63 @@ textarea {
 }
 
 @media screen and (max-width: 700px) {
+  #home_box {
+    width: 90vw;
+    height: 45%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-style: outset;
+    background: url(../images/web/robot.jpeg) no-repeat;
+    background-size: 600px;
+    background-position: 31% 130%;
+    box-shadow: 5px 10px #42526e47;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .btn-landing-page {
+    flex-direction: column;
+    display: flex;
+    /* margin: 5px; */
+    padding: 10px;
+    /* margin-right: 41px; */
+    width: 103px;
+    /* justify-content: center; */
+    height: 50px;
+    border-radius: 10px 20px;
+    border: 4px white;
+    border-style: inset;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: all .2s ease-in-out;
+    background-color: #cdddfd;
+    float: right;
+    clear: both;
+  }
+
+  .chevron {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 124px;
+    z-index: -9;
+    margin-top: 0;
+  }
+
+  button em {
+    font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 1000;
+    letter-spacing: .15em;
+    color: #42526e;
+    font-size: medium;
+  }
+
   .row {
     display: flex;
     flex-direction: column;
@@ -1070,5 +1160,28 @@ textarea {
 
   .h-container {
     float: left;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .chevron {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 221px;
+    z-index: -9;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .chevron {
+   display: none;
+  }
+
+  .row_revert {
+    flex-direction: column;
   }
 }
