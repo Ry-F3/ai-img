@@ -1036,7 +1036,7 @@ textarea {
     width: 90vw;
     height: 45%;
     background-size: 600px;
-    background-position: 31% 130%;
+    background-position: 29% 60%;
 
   }
 
@@ -1048,8 +1048,8 @@ textarea {
     border: 4px white;
     border-style: double;
     margin-left: auto;
-    margin-top: 283px;
-    margin-right: 10px;
+    margin-top: 245px;
+    margin-right: 14px;
     transition: all .2s ease-in-out;
     background-color: #cdddfdf2;
     float: right;
