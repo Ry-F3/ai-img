@@ -104,7 +104,7 @@ body {
 
 .header_box {
   width: 100%;
-  height: 20dvh;
+  height: 40dvh;
   position: relative;
   z-index: -5;
 }
@@ -367,7 +367,7 @@ div aside em {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 178px;
+  margin-top: 50px;
   margin-bottom: 26px;
   z-index: -2;
   text-align: center;
@@ -935,6 +935,14 @@ textarea {
 }
 
 /* Responsive design (min-width) */
+@media screen and (min-width: 1599px) {
+  .btn-landing-page {
+    clear: both;
+    margin-top:  39px;
+    margin-left: 46px;
+  }
+}
+
 
 @media screen and (min-width: 335px) {
   .roadmap:before {
@@ -1015,6 +1023,11 @@ textarea {
   .btn-landing-page {
     width: 12vw;
     margin-right: 4px;
+  }
+
+  #home_box {
+    background-size: 645px;
+    background-position: 31% 55%;
   }
 }
 
