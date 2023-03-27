@@ -317,24 +317,6 @@ button:hover {
   width: 100px;
 }
 
-#click {
-  width: 87px;
-  height: auto;
-  float: right;
-  margin-top: -72px;
-  margin-right: 23px;
-  display: none;
-}
-
-div aside em {
-  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  color: #f1f1f1;
-  font-weight: 900;
-  letter-spacing: .5px;
-  position: relative;
-  top: -5px;
-}
-
 .chevron {
   /* page effect at the bottom of column two */
   width: 300px;
@@ -613,7 +595,7 @@ div aside em {
   float: left;
   font-size: 7rem;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: 4px;
+  top: 8px;
   left: -5px;
 }
 
@@ -623,7 +605,7 @@ div aside em {
   float: left;
   font-size: 4rem;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: -45px;
+  top: -51px;
   left: 48px;
 }
 
@@ -633,7 +615,7 @@ div aside em {
   float: left;
   font-size: 3rem;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: 4px;
+  top: -1px;
   left: 12px;
 }
 
@@ -656,6 +638,17 @@ aside a {
   font-size: 25px;
   position: relative;
   top: 9px;
+}
+
+div aside em {
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
+  color: #42526e;
+  font-weight: 900;
+  letter-spacing: .5px;
+  position: relative;
+  top: -5px;
+  font-size: 15px;
+  display: grid;
 }
 
 
