@@ -1284,7 +1284,7 @@ textarea {
   nav ul li:hover {
     background-color: rgba(139, 139, 148, 0.04);
   }
-
+/* 
   nav:has(#input-1:checked) .nav-list {
     display: block;
   }
@@ -1300,7 +1300,7 @@ textarea {
   .column-position+input[type=checkbox]:checked {
     position: relative;
     z-index: -2;
-  }
+  } */
 
 
   .get-started {
