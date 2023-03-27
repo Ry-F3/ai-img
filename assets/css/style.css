@@ -1040,6 +1040,15 @@ textarea {
 
 }
 
+@media screen and (max-width: 976px) {
+
+  .btn-landing-page {
+    width: 12vw;
+    margin-right: 4px;
+  }
+
+}
+
 @media screen and (max-width: 780px) {
   .btn-landing-page {
     width: 12vw;
@@ -1146,7 +1155,7 @@ textarea {
     position: static;
     margin-left: auto;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .background-img {
@@ -1172,6 +1181,16 @@ textarea {
   }
 }
 
+@media screen and (max-width: 505px) {
+ .btn-landing-page {
+ width: 24vw;
+ }
+
+ .chevron {
+  bottom: 179px;
+ }
+}
+
 @media screen and (max-width: 375px) {
   .chevron {
     width: 300px;
@@ -1192,6 +1211,7 @@ textarea {
   .btn-landing-page {
     margin-top: 207px;
     margin-right: 7px;
+    width: 27vw;
     float: right;
   }
 
