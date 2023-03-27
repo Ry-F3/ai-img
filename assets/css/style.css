@@ -956,6 +956,13 @@ textarea {
    .pricing-container {
     background-size: 60%;
    }
+
+}
+
+@media screen and (min-width: 700px) {
+  form h2 {
+    margin-top: 70px;
+  }
 }
 
 @media screen and (min-width: 640px) {
@@ -1041,19 +1048,19 @@ textarea {
 }
 
 @media screen and (max-width: 976px) {
-
   .btn-landing-page {
     width: 12vw;
     margin-right: 4px;
+  }
+
+  #home_box {
+    background-size: 550px;
+    background-position: 43% 55%;
   }
 
 }
 
 @media screen and (max-width: 780px) {
-  .btn-landing-page {
-    width: 12vw;
-    margin-right: 4px;
-  }
 
   #home_box {
     background-size: 645px;
@@ -1145,7 +1152,7 @@ textarea {
   }
 
   .get-started {
-    max-width: 500px;
+    max-width: 699px;
     padding: 42px;
     text-align: left;
     border-radius: 28px;
