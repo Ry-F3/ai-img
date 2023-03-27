@@ -644,8 +644,8 @@ div aside em {
   position: absolute;
   line-height: 14px;
   font-size: 12px;
-  width: 181px;
-  right: 0px;
+  width: 158px;
+  right: -2px;
   height: 100px;
   font-weight: 900;
 }
@@ -653,7 +653,6 @@ div aside em {
 aside a {
   color: rgba(243, 112, 90, 1);
   font-size: 25px;
-  margin-left: 5px;
   position: relative;
   top: 9px;
 }
