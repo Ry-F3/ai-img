@@ -934,7 +934,7 @@ textarea {
 /* footer */
 .footer {
   width: 100%;
-  padding: 25px;
+  padding: 30px;
   border-top: 1px solid #e97060;
   background: #e97060;
   color: #f1f1f1;
@@ -1227,7 +1227,7 @@ textarea {
   }
   
   .header_box {
-    height: 55dvh;
+    height: 250px;
   } 
 }
 
