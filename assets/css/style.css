@@ -622,9 +622,9 @@ button:hover {
 #article_pro {
   color: #42526e;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: 18px;
+  top: 17px;
   position: absolute;
-  line-height: 14px;
+  line-height: 15px;
   font-size: 12px;
   width: 122px;
   right: -2px;
@@ -633,11 +633,9 @@ button:hover {
   letter-spacing: .5px;
 }
 
-aside a {
+aside a { 
   color: rgba(243, 112, 90, 1);
-  font-size: 25px;
-  position: relative;
-  top: 9px;
+  font-size: 17px;
 }
 
 div aside em {
