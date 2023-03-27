@@ -640,9 +640,9 @@ div aside em {
 #article_pro {
   color: #42526e;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: 20px;
+  top: 31px;
   position: absolute;
-  line-height: 16px;
+  line-height: 14px;
   font-size: 12px;
   width: 181px;
   right: 0px;
@@ -652,10 +652,10 @@ div aside em {
 
 aside a {
   color: rgba(243, 112, 90, 1);
-  font-size: 2em;
+  font-size: 25px;
   margin-left: 5px;
   position: relative;
-  top: 3px;
+  top: 9px;
 }
 
 
@@ -678,6 +678,7 @@ aside a {
   position: relative;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   letter-spacing: 1.5px;
+  bottom: 60px;
 
 }
 
