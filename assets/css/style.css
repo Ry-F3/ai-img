@@ -337,13 +337,13 @@ div aside em {
 
 .chevron {
   /* page effect at the bottom of column two */
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 140px;
-    z-index: -2;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 140px;
+  z-index: -2;
 }
 
 .chevron::after,
@@ -640,14 +640,22 @@ div aside em {
 #article_pro {
   color: #42526e;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: 43px;
+  top: 20px;
   position: absolute;
-  line-height: 14px;
+  line-height: 16px;
   font-size: 12px;
-  width: 139px;
+  width: 181px;
   right: 0px;
   height: 100px;
   font-weight: 900;
+}
+
+aside a {
+  color: rgba(243, 112, 90, 1);
+  font-size: 2em;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
 }
 
 
@@ -738,12 +746,6 @@ div aside em {
   line-height: 23px;
   font-weight: 300;
   letter-spacing: .5px;
-}
-
-.roadmap-text p a {
-  color: rgba(243, 112, 90, 1);
-  font-size: 2em;
-  margin-left: 5px;
 }
 
 .roadmap-text .tagline {
@@ -945,17 +947,17 @@ textarea {
 @media screen and (min-width: 1599px) {
   .btn-landing-page {
     clear: both;
-    margin-top:  39px;
+    margin-top: 39px;
     margin-left: 46px;
   }
 
   #btn-get-started {
     bottom: 45px;
-   }
+  }
 
-   .pricing-container {
+  .pricing-container {
     background-size: 60%;
-   }
+  }
 
 }
 
@@ -966,9 +968,9 @@ textarea {
 }
 
 @media screen and (min-width: 640px) {
- #pricing_header { 
-  padding-top: 20px;
- }
+  #pricing_header {
+    padding-top: 20px;
+  }
 
 }
 
@@ -1143,7 +1145,7 @@ textarea {
   }
 
   /* :has pseudo slector may not have cross browser support (enables drop down menu burger bar is clicked). I have tested on a samsung and works - apple product tested and failed */
-  nav:has(#input-1:checked) .nav-list {  
+  nav:has(#input-1:checked) .nav-list {
     display: block;
   }
 
@@ -1189,13 +1191,13 @@ textarea {
 }
 
 @media screen and (max-width: 505px) {
- .btn-landing-page {
- width: 24vw;
- }
+  .btn-landing-page {
+    width: 24vw;
+  }
 
- .chevron {
-  bottom: 179px;
- }
+  .chevron {
+    bottom: 179px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -1225,15 +1227,15 @@ textarea {
   #btn-get-started {
     bottom: 10px;
   }
-  
+
   .header_box {
     height: 250px;
-  } 
+  }
 }
 
 @media screen and (max-width: 320px) {
   .chevron {
-   display: none;
+    display: none;
   }
 
   .row_revert {
