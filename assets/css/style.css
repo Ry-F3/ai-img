@@ -640,14 +640,15 @@ div aside em {
 #article_pro {
   color: #42526e;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: 31px;
+  top: 18px;
   position: absolute;
   line-height: 14px;
   font-size: 12px;
-  width: 158px;
+  width: 122px;
   right: -2px;
   height: 100px;
   font-weight: 900;
+  letter-spacing: .5px;
 }
 
 aside a {
