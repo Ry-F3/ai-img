@@ -151,24 +151,40 @@ Get Started Form (Mobile):<br>
 
 ## **Function**
 
+Function 
+
+The purpose of the index.html page is to serve as a two-page application. The landing page provides links for navigation or the user can use the conventional side scroll bar to view the website, where it features sections named: about, services, user cases and pricing. The get started button navigates to the form.html.
+
+Unfortunately, the form.html is not fully functional, as I do not possess the necessary skills to create a working form, but I plan to conduct research to learn how to do so in the future. As a temporary solution for the project, users will be redirected to https://formdump.codeinstitute.net to submit their inquiries.
+Screenshots of the final pages below:
+
+![Final-page-1](assets/images/screenshots/final-page-1.png)
+![Final-page-2](assets/images/screenshots/final-page-2.png)
+![Final-page-3](assets/images/screenshots/final-page-3.png)
+![Final-page-4](assets/images/screenshots/final-page-4.png)
+![Final-page-5](assets/images/screenshots/final-page-5.png)
+![Final-page-6](assets/images/screenshots/final-page-6.png)
+
+
+
 ## **Features**
 
 ### **Header** 
 
-![Header]()
+![Header](assets/images/screenshots/nav-full.png)
 
 ### **Footer**
 
-![Footer]()
+![Footer](assets/images/screenshots/screenshot-footer.png)
 
 ### **Unified colour scheme**
 
-![Unified colour scheme]()
+![Unified colour scheme](assets/images/screenshots/screenshot-color-scheme.png)
 
 ### **Introductory text**
 
 
-![Index introduction]()
+![Index introduction](assets/images/screenshots/Screenshot%20home-page%20text.png)
 
 ### **User feedback**
 
