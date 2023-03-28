@@ -159,8 +159,9 @@ Function
 
 The purpose of the index.html page is to serve as a two-page application. The landing page provides links for navigation or the user can use the conventional side scroll bar to view the website, where it features sections named: about, services, user cases and pricing. The get started button navigates to the form.html.
 
-Unfortunately, the form.html is not fully functional, as I do not possess the necessary skills to create a working form, but I plan to conduct research to learn how to do so in the future. As a temporary solution for the project, users will be redirected to https://formdump.codeinstitute.net to submit their inquiries.
-Screenshots of the final pages below:
+Unfortunately, the form.html is not fully functional, as I do not possess the necessary skills to create a working form, but I plan to conduct research to learn how to do so in the future. As a temporary solution for the project, users will be redirected to https://formdump.codeinstitute.net to submit their inquiries.<br>
+
+**Screenshots of the final pages below:**
 
 ![Final-page-1](assets/images/screenshots/final-page-1.png)
 
@@ -174,19 +175,23 @@ Screenshots of the final pages below:
 
 ![Final-page-6](assets/images/screenshots/final-page-6.png)
 
-
-
 ## **Features**
 
 ### **Header** 
+
+The index.html page utilises a navbar in the header position for both pages. Through the use of sticky positioning, the navbar remains fixed at the top of the page as the user scrolls, enabling easy navigation throughout the application.
 
 ![Header](assets/images/screenshots/nav-full.png)
 
 ### **Footer**
 
+I have kept the footer simple, featuring only my name and the copyright symbol. The colour scheme of the footer matches the rest of the application. In the future, I may consider expanding the footer by including links to my social media profiles and possibly adding a second navbar for important information, such as FAQs.
+
 ![Footer](assets/images/screenshots/screenshot-footer.png)
 
 ### **Unified colour scheme**
+
+
 
 ![Unified colour scheme](assets/images/screenshots/screenshot-color-scheme.png)
 
@@ -217,11 +222,13 @@ On the other hand, viewing the navbar on a desktop provides a different and more
 
 ### **Image Galleries** 
 
-![Image gallery]()
+Initially, the plan was to create a gallery page to showcase hypothetical examples of the business's work. However, due to the purely front-end nature of the project, I was unable to include a carousel for interactive browsing of the gallery while adhering to semantic conventions. However, all of the images used in the project apart from the team page have been licensed.
+
+![Licensed Iages](assets/images/screenshots/Screenshot-liscense.png)
 
 ### Contact form
 
-![Contact form]()
+<img src="./assets/images/screenshots/screenshot-form.png" width=200 height=450>
 
 ### **Accessibility**
 
