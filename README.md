@@ -57,43 +57,46 @@
 
 ## **Background**
 
-Disclaimer: This website template contains a collection of practical ideas that are hypothetical and related to the rise of artificial intelligence. Please note that the content and statistics presented here are not thoroughly sourced and have not been personally investigated at the depth it would need to determine a viable product. The images used in this template have been licensed via Adobe and some have been created using WOMBO dream an artificail intelligence image prompt service. While there may be some gray areas surrounding their use, I hope that legislation will eventually catch up and clarify what is plausible and implausible. Throughout the website, you may come across some terms and abbreviations, such as "text to image" (t>i) and "prompt pros," which are original thoughts. However, it's likely that others, in the information industry have also coined similar phrases.
+Disclaimer: This website template contains a collection of practical ideas that are hypothetical and related to the rise of Artificial Intelligence (AI). The images used in this template have been licensed via Adobe and some have been created using WOMBO dream, which is an Artificial Intelligence image prompt service. While there may be some grey areas surrounding their use, I hope that legislation will eventually catch up and clarify what is legal. Throughout the website, you may come across some terms and abbreviations, such as "text to image" (t>i) and "prompt pros," which are original thoughts. However, it's likely that others in the information industry have also coined similar phrases.
+Here are the simplified points that convey the thesis of the proposed business model:
 
-Here are the simplified points that convey the proposed business model's thesis and approach:
+**How can AI drive the creative commercial industry forward?**<br>
+By leveraging data and analytics, AI can guide businesses in making accurate decisions to stand out in a crowded market. AI can identify consumer preferences, such as colour choices, and curate creative content with pinpoint accuracy in a fraction of the time.
 
-1. How can artificial intelligence drive the creative commercial industry forward? By leveraging data and analytics, AI can guide businesses in making accurate decisions to stand out in a crowded market. AI can identify consumer preferences, such as color choices, and curate creative content with pinpoint accuracy in a fraction of the time.
+**What is text-to-image technology?**<br>
+Text-to-image AI programs allow users to input keywords and generate images at will. However, these programs can present issues in terms of usability and scalability for advertisers and social media platforms. Therein lies an identifiable issue that can be tackled with a solution.
 
-2. What is text-to-image technology? Text-to-image AI programs allow users to input keywords and generate images at will. However, these programs can present issues in terms of usability and scalability for advertisers and social media platforms. Therein lies an identifiable issue that can be tackled with a solution.
+**Why would businesses choose an AI creative solutions provider?**<br>
+To address usability and scalability issues, businesses need text-to-image specialists, or "Prompt Pros," with a machine learning background who can optimise text-to-image programs. Prompt Pros could create content for various business types, including advertisers, social media influencers, and NFTs.
 
-3. Why would businesses choose an AI creative solutions provider? To address usability and scalability issues, businesses need text-to-image specialists, or "Prompt Pros," with a machine learning background who can optimize text-to-image programs. Prompt Pros could create content for various business types, including advertisers, social media influencers, and NFTs.
-
-4. How would the business model function? The business model would be promoted as a subscription-based service, with different levels of access. Initially, there would be a basic free service to showcase capabilities and act as free advertising. To unlock further usability, clients would need to pay a monthly fee. The team of Prompt Pros would be divided into teams with assigned case loads and would serve as a gateway to accessing the full potential of text-to-image technology, along with embedded data and analytics to provide clients with insights and metrics.
+**How would the business model function?**<br>
+The business model would be promoted as a subscription-based service, with different levels of access. Initially, there would be a basic free service to showcase capabilities and act as free advertising. To unlock further usability, clients would need to pay a monthly fee. The team of Prompt Pros would be divided into teams with assigned case loads and would serve as a gateway to accessing the full potential of text-to-image technology, along with embedded data and analytics to provide clients with insights and metrics.
 
 The purpose of outlining these points is to demonstrate the process of identifying an issue that can be resolved through effective marketing and a skilled team. The team is critical because the success of the service relies on their ability to leverage AI creative technology to address usability and scalability challenges.
 
 ## **Scope**
-
 The website is a crucial tool for effective communication between businesses and their clients. In order to achieve this goal, it is essential to create a visual language that embodies professionalism while also incorporating a creative flair. This fusion of business and creativity must be carefully crafted to ensure that clients have confidence in the ability of the service provider to deliver high-quality results.
+To achieve this unity, several key decisions were made during the design process. One such decision was to prioritise a smooth and free-flowing user experience (UX/UI) that allows users to navigate the website with ease. This led to the creative choice of having most of the content on a single page. However, this decision posed a challenge due to the mobile-first design approach and the limitations of a purely front-end design that relied on HTML and CSS. The problem-solving strategies employed to overcome these challenges will be discussed in detail in the appropriate section.
 
-To achieve this amalgamation, several key decisions were made during the design process. One such decision was to prioritize a smooth and free-flowing user experience (UX/UI) that allows users to navigate the website with ease. This led to the creative choice of having most of the content on a single page. However, this decision posed a challenge due to the mobile-first design approach and the limitations of a purely front-end design that relied on HTML and CSS. The problem-solving strategies employed to overcome these challenges will be discussed in detail in the appropriate section.
+As an emerging branch in the tech industry, delving into AI creative technology has posed some challenges in terms of staying informed and up-to-date. However, I was fortunate to come across Adcreative.ai, which proved to be an incredibly helpful resource for generating content and refining wording. While AI certainly has its advantages in terms of speed and efficiency, it can sometimes lack the personal touch that businesses value when it comes to establishing trust and reliability. As such, I believe that a well-balanced approach that incorporates both AI technology and human input is key to achieving the best possible results for our potential clients.
 
-As an emerging branch in the tech industry, delving into AI creative technology has posed some challenges in terms of staying informed and up-to-date. However, I was fortunate to come across Adcreative.ai, which proved to be an incredibly helpful resource for generating content and refining wording. While AI certainly has its advantages in terms of speed and efficiency, it can sometimes lack the personal touch that businesses value when it comes to establishing trust and reliability. As such, I believe that a well-balanced approach that incorporates both AI technology and human input is key to achieving the best possible results for our clients.
+Another crucial decision that was made was the careful consideration and evaluation of colour schemes. As someone with an art background, I understand that colour theory plays a significant role in eliciting specific responses and influencing human behaviour in certain circumstances. Therefore, it was important to select a colour scheme that conveys the desired message and creates a recognizable branding that is both creative and professional. The aim was to convey that the service provider is capable of skillfully doing the heavy lifting, leaving clients to focus on their core business operations.
 
-Another crucial decision that was made was the careful consideration and evaluation of color schemes. As someone with an art background, I understand that color theory plays a significant role in eliciting specific responses and influencing human behavior in certain circumstances. Therefore, it was important to select a color scheme that conveys the desired message and creates a recognizable branding that is both creative and professional. The aim was to convey that the service provider is capable of skillfully doing the heavy lifting, leaving clients to focus on their core business operations.
-
-Finally, the selection of illustrative imagery was also critical in creating a unified and cohesive website design. The intention was to align the imagery with the chosen color scheme. However, the research process flipped this approach on its head, with the predominant colors informing the creative process. The result was a carefully curated selection of imagery that complemented the color scheme and helped to convey the desired message to the target audience.
+Finally, the selection of illustrative imagery was also critical in creating a unified and cohesive website design. The intention was to align the imagery with the chosen colour scheme. However, the research process flipped this approach on its head, with the predominant colours informing the creative process. The result was a carefully curated selection of imagery that complemented the colour scheme and helped to convey the desired message to the target audience.
 
 Overall, the design decisions made during the development of this website aimed to create a seamless and visually compelling experience that would build confidence in the service provider while also building loyalty with users.
 
+
 ## **Audience**
 
-Our target audience comprises of businesses that have a B2C approach but lack the technical expertise to implement new technology solutions on their own. These businesses are often interested in finding creative and innovative solutions to meet their high-paced needs in a fast-changing market. They understand the importance of staying ahead of the competition and are willing to invest in the right tools and services to achieve their goals.
+Our key demographic is business to customer (B2C) organisations, who may lack the technical expertise to implement new technology solutions on their own. These businesses are often interested in finding creative and innovative solutions to meet their high-paced needs in a fast-changing market. They understand the importance of staying ahead of the competition and are willing to invest in the right tools and services to achieve their goals.
 
 Our ideal customers are decision-makers who value reliability and trust in their business partnerships. They are looking for a team that not only understands their business needs but also has the technical expertise to provide effective solutions. Our service could provide them with a competitive edge by delivering high-quality creative services that resonate with their target audience and help them achieve their business objectives.
 
 We also cater to businesses that are open to exploring new technologies and are interested in experimenting with AI-driven creative solutions. These businesses are typically early adopters who understand the importance of staying ahead of the curve and are willing to take calculated risks to achieve their business goals.
 
-On the whole, our target audience is businesses that prioritize innovation, creativity, and reliability in their business partnerships. We aim to provide them with a seamless experience and customized solutions that align with their specific business needs and goals.
+On the whole, our target audience is businesses that prioritise innovation, creativity, and reliability in their business partnerships. We aim to provide them with a seamless experience and customised solutions that align with their specific business needs and goals.
+
 
 ## **User Stories**
 
@@ -104,6 +107,7 @@ By following these conventions, it ensures that users can quickly and easily fin
 Another example of a convention is the use of familiar icons to represent certain functions, such as an 'i' for information or a shopping cart for e-commerce sites. By using these icons consistently, users can quickly understand how to interact with a website.
 
 Conforming to conventions not only makes websites more user-friendly, but it also helps to establish credibility and trust with users. When users feel comfortable using a website, they are more likely to return and recommend it to others.
+
 
 ## **Wireframes**
 
@@ -159,10 +163,15 @@ Unfortunately, the form.html is not fully functional, as I do not possess the ne
 Screenshots of the final pages below:
 
 ![Final-page-1](assets/images/screenshots/final-page-1.png)
+
 ![Final-page-2](assets/images/screenshots/final-page-2.png)
+
 ![Final-page-3](assets/images/screenshots/final-page-3.png)
+
 ![Final-page-4](assets/images/screenshots/final-page-4.png)
+
 ![Final-page-5](assets/images/screenshots/final-page-5.png)
+
 ![Final-page-6](assets/images/screenshots/final-page-6.png)
 
 
