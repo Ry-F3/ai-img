@@ -15,3 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 });
+
+
+/* My mentor showed me how I would achieve the dropdown menu with JS */

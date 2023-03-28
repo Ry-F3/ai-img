@@ -1,27 +1,12 @@
-https://stackoverflow.com/questions/5025941/is-there-a-way-to-get-a-button-element-to-link-to-a-location-without-wrapping
 
-https://www.youtube.com/watch?v=QY7Rj8aZcZk&t=757s (chevron)
-
-https://www.youtube.com/watch?v=xoRbkm8XgfQ&t=419s (before and after)
-
-https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (transition in and out)
-
-https://codepen.io/thebabydino/pen/DmVqBM (speech bubble)
-
-https://www.youtube.com/watch?v=OGJvhpoE8b4 (:has)
-
-https://fonts.google.com/
-
-https://cssanimation.rocks/spheres/ (shere)
-
-http://www.responsinator.com/?url=ry-f3.github.io%2Fai.img-v2%2
-
-
-![Index page screenshot]()
 
 # Ai.img
 
-# Code Institute Portfolio Project 1:
+# Code Institute Portfolio Project 1: Front end project using HTML and CSS deployed via Github.
+### To view the project please [click here](https://ry-f3.github.io/ai.img-v2/).
+<br>
+
+![Index page screenshot](assets/images/screenshots/amiresponsive.png)
 
 # Table of Contents
 
@@ -325,3 +310,20 @@ Bibliography (credits) -
 
 
 
+https://stackoverflow.com/questions/5025941/is-there-a-way-to-get-a-button-element-to-link-to-a-location-without-wrapping
+
+https://www.youtube.com/watch?v=QY7Rj8aZcZk&t=757s (chevron)
+
+https://www.youtube.com/watch?v=xoRbkm8XgfQ&t=419s (before and after)
+
+https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (transition in and out)
+
+https://codepen.io/thebabydino/pen/DmVqBM (speech bubble)
+
+https://www.youtube.com/watch?v=OGJvhpoE8b4 (:has)
+
+https://fonts.google.com/
+
+https://cssanimation.rocks/spheres/ (shere)
+
+http://www.responsinator.com/?url=ry-f3.github.io%2Fai.img-v2%2
