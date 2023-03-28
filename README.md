@@ -191,7 +191,7 @@ I have kept the footer simple, featuring only my name and the copyright symbol. 
 
 ### **Unified colour scheme**
 
-
+Regarding the colour scheme used in the project, I based it on the visual images licensed from [Adobe Stock](https://stock.adobe.com/uk/). Although this was a personal creative decision that helped shape the project's development, it is generally advised to start with a clean slate and allow the selected colours to inform the website's image choices. However, for this project, the colours used were intended to establish a warm and soothing ambiance while still remaining welcoming, which corresponds to the company's character. [Coolors.co](https://coolors.co/42526e-e97060-5c7af2-cdddfd-e7e5df) to showcase the unified colour scheme, I utilised various variations to produce light highlights and dark shades for depth.
 
 ![Unified colour scheme](assets/images/screenshots/screenshot-color-scheme.png)
 
@@ -228,7 +228,7 @@ Initially, the plan was to create a gallery page to showcase hypothetical exampl
 
 ### Contact form
 
-<img src="./assets/images/screenshots/screenshot-form.png" width=200 height=450>
+<img src="./assets/images/screenshots/screenshot-form.png" width=220 height=450>
 
 ### **Accessibility**
 
