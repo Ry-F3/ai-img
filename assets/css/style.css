@@ -959,6 +959,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  form h2 {
+    margin-top: -17px;
+  }
+}
+
 @media screen and (min-width: 640px) {
   #pricing_header {
     padding-top: 20px;
