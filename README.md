@@ -155,8 +155,6 @@ Get Started Form (Mobile):<br>
 
 ## **Function**
 
-Function 
-
 The purpose of the index.html page is to serve as a two-page application. The landing page provides links for navigation or the user can use the conventional side scroll bar to view the website, where it features sections named: about, services, user cases and pricing. The get started button navigates to the form.html.
 
 Unfortunately, the form.html is not fully functional, as I do not possess the necessary skills to create a working form, but I plan to conduct research to learn how to do so in the future. As a temporary solution for the project, users will be redirected to https://formdump.codeinstitute.net to submit their inquiries.<br>
@@ -191,12 +189,13 @@ I have kept the footer simple, featuring only my name and the copyright symbol. 
 
 ### **Unified colour scheme**
 
-Regarding the colour scheme used in the project, I based it on the visual images licensed from [Adobe Stock](https://stock.adobe.com/uk/). Although this was a personal creative decision that helped shape the project's development, it is generally advised to start with a clean slate and allow the selected colours to inform the website's image choices. However, for this project, the colours used were intended to establish a warm and soothing ambiance while still remaining welcoming, which corresponds to the company's character. [Coolors.co](https://coolors.co/42526e-e97060-5c7af2-cdddfd-e7e5df) to showcase the unified colour scheme, I utilised various variations to produce light highlights and dark shades for depth.
+Regarding the colour scheme used in the project, I based it on the visual images licensed from [Adobe Stock](https://stock.adobe.com/uk/). Although this was a personal creative decision that helped shape the project's development, it is generally advised to start with a clean slate and allow the selected colours to inform the website's image choices. However, for this project, the colours used were intended to establish a warm and soothing ambiance while still remaining welcoming, which corresponds to the company's character. [Coolors.co](https://coolors.co/42526e-e97060-5c7af2-cdddfd-e7e5df) was used to showcase the unified colour scheme, I utilised various variations to produce light highlights and dark shades for depth.
 
 ![Unified colour scheme](assets/images/screenshots/screenshot-color-scheme.png)
 
 ### **Introductory text**
 
+The purpose of the text is to provide information and quickly convey the purpose of the site to the user. By using different "heading" tags, I have been able to prioritise the user's attention. The buttons on the main hero image link to the products that would be offered. If the website were fully developed, they would direct the user to examples of work created by the company. For the purpose of this project, however, I have linked the user to appropriate articles related to AI and the products.
 
 ![Index introduction](assets/images/screenshots/Screenshot%20home-page%20text.png)
 
