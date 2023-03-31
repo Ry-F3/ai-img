@@ -399,7 +399,7 @@ Upon performing HTML validation on 31/03/23, there were no errors found in the c
 
 ## **Credits**
 
-Developed by **Rhys.ALexander.Few**
+Developed by **Rhys.Alexander.Few**
 
 ### **Code**
 
