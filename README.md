@@ -195,11 +195,47 @@ Regarding the colour scheme used in the project, I based it on the visual images
 
 ### **Introductory text**
 
-The purpose of the text is to provide information and quickly convey the purpose of the site to the user. By using different "heading" tags, I have been able to prioritise the user's attention. The buttons on the main hero image link to the products that would be offered. If the website were fully developed, they would direct the user to examples of work created by the company. For the purpose of this project, however, I have linked the user to appropriate articles related to AI and the products.
+The purpose of the text is to provide information and quickly convey the purpose of the site to the user. By using different "heading" tags, I have been able to prioritise the user's attention. The buttons on the main hero image link to the products that would be offered. If the website were fully developed, they would direct the user to examples of work created by the company. For the purpose of this project, however, I have linked the user to appropriate articles related to AI and the products. In order to achieve a clickable link from a button using the html tag I used a small string of JavaScript <code>onclick="location.href='URL'"</code>. Initially I tried to use an "a" tag but when I validated my html I discovered that it was semantically incorrect. 
 
 ![Index introduction](assets/images/screenshots/Screenshot%20home-page%20text.png)
 
 ### **User feedback**
+
+I have reached out to a couple of the Code Institute's Alumni, friends and family to guage their experience and what could be changed in the future.<br>
+I tested the website on my my 13 inch *Razer laptop, Samsung Flip 3 and an Ipad*. Overall the experience was positive, however I noticed that browser support on *Apple* products was not consistant. Icons appeared smaller and the navbar was not always able to drop down to navigate on smaller devices.
+
+* **Iuliia Konovalova (Code Institute Alumni).**
+    * Semantic “h” tag  headings need to be in chronological order.
+    * It is hard to distinguish the colours of the navbar upon drop down.
+    * Pricing table isn't responsive below a certain width (think about font sizes).
+    * Metadata has not been inputted correctly.
+    * Put main content in the main element tag, excluding navbar and footer.
+    * Add an <code>aria-label=""</code> to each "a" element.
+
+<br>
+
+* **Adam Boley (Code Institute Alumni).** *Samsung A20*
+    * Dropdown menu bars are not clickable only the text, which could be jarring for users.
+    * ~~Navbar links opening a new tab, change to "a" tags for a nicer user experience~~.
+
+<br>
+
+* **Tom Harrington-Neal** *Samsung Note 20*
+    * No major bugs found AND commented that overall it was a smooth experience.
+
+<br>
+
+* **Alex Majeed** *unknown*
+    * No major bugs.
+    * Suggested to make the pricing table's text more visually distinct.
+
+<br> 
+
+* **Nick Few** *Iphone SE*
+    * No major bugs.
+    * ~~Navbar links opening a new tab, change to "a" tags for a nicer user experience~~.
+
+<br>
 
 ### **Internal Navigation**
 
@@ -347,7 +383,7 @@ https://www.youtube.com/watch?v=QY7Rj8aZcZk&t=757s (chevron)
 
 https://www.youtube.com/watch?v=xoRbkm8XgfQ&t=419s (before and after)
 
-https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (transition in and out)
+https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (transition in and out) x
 
 https://codepen.io/thebabydino/pen/DmVqBM (speech bubble)
 
