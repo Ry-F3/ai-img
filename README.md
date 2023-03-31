@@ -164,6 +164,7 @@ To ensure the website's functionality on a variety of devices, I personally test
     * ~~Pricing table isn't responsive below a certain width (think about font sizes)~~.
     * ~~Metadata has not been inputted correctly~~.
     * ~~Put main content in the main element tag, excluding navbar and footer~~.
+        * *I attempted to place my sections within the main tag, but unfortunately, this caused one of my buttons and links to stop functioning correctly. As a result, I have reverted to my previous HTML formatting.*
     * ~~Add an <code>aria-label=""</code> to each "a" element~~.
 
 <br>
