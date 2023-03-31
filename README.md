@@ -257,7 +257,7 @@ Examples of changes to the home page:
 
 Stage 1            |      Stage 2  |           Stage 3 |             Stage 4
 :-------------------------:|:-------------------------: |:-------------------------: |:-------------------------:
-<img src="assets/images/screenshots/screenshot-original-mock-up-phone.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.1.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.2.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-final-landing-page.png" width=260 height=450>  
+<img src="assets/images/screenshots/screenshot-original-mock-up-phone.png" width=280 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.1.png" width=280 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.2.png" width=280 height=450>  | <img src="assets/images/screenshots/screenshot-final-landing-page.png" width=280 height=450>  
 
 ### **Colour schemes**
 
