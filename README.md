@@ -391,33 +391,33 @@ Upon performing HTML validation on 31/03/23, there were no errors found in the c
 
 #### **Lighthouse performance testing**
 
-##### Mobile:
-
-**Index.html**:
-- Performance: 
-- Accessibility: 
-- Best Practices:
-- SEO:
-
-**Form.html**:
-- Performance: 
-- Accessibility: 
-- Best Practices:
-- SEO:
-
 ##### Desktop:
 
 **Index.html**:
-- Performance: 
-- Accessibility: 
-- Best Practices:
-- SEO:
+- Performance: 99
+- Accessibility: 96
+- Best Practices: 92
+- SEO: 100
 
 **Form.html**:
-- Performance: 
-- Accessibility: 
-- Best Practices:
-- SEO:
+- Performance: 99
+- Accessibility: 86
+- Best Practices: 100
+- SEO: 100
+
+##### Mobile:
+
+**Index.html**:
+- Performance: 88
+- Accessibility: 96
+- Best Practices: 92
+- SEO: 100
+
+**Form.html**:
+- Performance: 78
+- Accessibility: 86
+- Best Practices: 100
+- SEO: 100
 
 ## **Credits**
 
