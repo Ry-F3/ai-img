@@ -8,52 +8,6 @@
 
 ![Index page screenshot](assets/images/screenshots/amiresponsive.png)
 
-# Table of Contents
-
-- [Background](#background)
-- [Scope](#scope)
-- [Audience](#audience) 
-- [User Stories](#user-stories)
-- [Wireframes](#wireframes)
-    - [Mobile First Design](#mobile-first-design)
-    - [Desktop Scaling](#desktop-scaling)
-- [Function](#function)
-- [Features](#features)
-    - [Header](#header)
-    - [Footer](#footer)
-    - [Unified Colour Scheme](#unified-colour-scheme)
-    - [Introductory Text](#introductory-text)
-    - [User feedback](#user-feedback)
-    - [Internal Navigation](#internal-navigation)
-    - [Image Galleries](#image-galleries)
-    - [Contact Form](#contact-form)
-    - [Accessibility](#accessibility)
-- [Design Choices](#design-choices)
-    - [Font](#font)
-    - [Layout and Structure](#layout-and-structure)
-    - [Colour Schemes](#colour-schemes)
-- [Accessibility](#accessibility)
-- [Code explanations](#code-explanations)
-- [Future Work](#future-work)
-- [Bugs](#bugs)
-- [Technologies](#technologies)
-- [Deployment](#deployment)
-    - [How this project was deployed](#how-this-project-was-deployed)
-        - [Direct access](#direct-access)
-        - [Template](#template)
-        - [Collaboration](#collaboration)
-        - [Development preview browser](#development-preview-browser)
-- [Testing](#testing)
-    - [Testing User Stories](#testing-user-stories)
-    - [Testing Functionality](#testing-functionality)
-    - [Testing on different devices](#testing-on-different-devices)
-    - [Testing code](#testing-code)
-- [Credits](#credits)
-    - [Code](#code)
-    - [Inspiration](#inspiration)
-    - [Images](#images)
-    - [Acknowledgements](#acknowledgements)
-
 ## **Background**
 
 Disclaimer: This website template contains a collection of practical ideas that are hypothetical and related to the rise of Artificial Intelligence (AI). The images used in this template have been licensed via Adobe and some have been created using WOMBO dream, which is an Artificial Intelligence image prompt service. While there may be some grey areas surrounding their use, I hope that legislation will eventually catch up and clarify what is legal. Throughout the website, you may come across some terms and abbreviations, such as "text to image" (t>i) and "prompt pros," which are original thoughts. However, it's likely that others in the information industry have also coined similar phrases.
@@ -343,41 +297,37 @@ In conclusion, by using tools such as validators and seeking feedback from other
 
 * Button elements cannot have an "a" tag as a direct child or be the parent.
 
-
-## **Code explanations**
-
 ## **Future work**
+
+In the future, I would like to explore how to create a complete and functional form that can securely store and manage user data and information. This form should be designed with user experience and data privacy in mind, ensuring that users can easily input and submit their information while also protecting their data from any unauthorized access or misuse.
+
+Additionally, I would like to investigate the feasibility of using third-party solutions for generating artificial intelligence (AI) images. This would involve testing various AI image generation tools and platforms to determine their accuracy, speed, and overall performance. This research would also consider the potential ethical implications of using AI-generated images and the importance of ensuring that such images are used responsibly and transparently.
  
 ## **Technologies**
 
-[Github](https://github.com/) 
+* [Github](https://github.com/) 
+    * Hosted the project's repository. 
 
-[Gitpod](https://gitpod.io/) 
+* [Gitpod](https://gitpod.io/) 
+    * Utilised an IDE with version control capabilities to edit and create files.
 
-[Github Pages](https://pages.github.com/) 
+* [Github Pages](https://pages.github.com/) 
+    * Used to deploy the website.
 
-[Balsamiq](https://balsamiq.com/) 
+* [Balsamiq](https://balsamiq.com/) 
+    * Utilised a tool for creating wireframes to plan the project.
 
-[Slack](https://slack.com/intl/en-gb/) 
+* [Slack](https://slack.com/intl/en-gb/) 
+    * Used a platform to connect with my mentor and fellow course alumni.
 
-[Font Awesome](https://khan.github.io/Font-Awesome/) 
+* [Remixicon](https://remixicon.com/)
+    * Used for most of the website's icons.
 
+* [Font Awesome](https://khan.github.io/Font-Awesome/) 
+    * Used a tool to pair my selected fonts and some icons.
 
-## **Deployment**
-
-### **How this project was deployed**
-
-### **How other users can work on this project**
-
-#### **Direct access**
-
-#### **Template**
-
-#### **Collaboration**
-
-#### **Development preview browser**
-
-<code>python3 -m http.server</code>
+* [Responsinator](http://www.responsinator.com/)
+    * Used to test the responsiveness of the website. 
 
 ## **Testing**
 
@@ -425,8 +375,6 @@ In conclusion, by using tools such as validators and seeking feedback from other
 ### **Images**
 
 ### **Acknowledgements**
-
-[This CSS Tricks article](https://css-tricks.com/couple-takes-sticky-footer/)
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/) 
 
