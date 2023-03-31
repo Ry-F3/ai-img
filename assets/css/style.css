@@ -1240,4 +1240,9 @@ textarea {
     flex-direction: column;
   }
 
+  th, td {
+    padding: 2px;
+    font-size: 12px;
+  }
+
 }
