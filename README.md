@@ -329,8 +329,6 @@ Additionally, I would like to investigate the feasibility of using third-party s
 * [Responsinator](http://www.responsinator.com/)
     * Used to test the responsiveness of the website. 
 
-<br>
-
 ## **Testing**
 
 ### **Testing User Stories**
