@@ -342,9 +342,12 @@ Additionally, I would like to investigate the feasibility of using third-party s
 
 ### **Testing User Stories**
 
-**User Story**:<br>
-
-**Fulfilment**:<br>
+| User Story   | Fulfilment | 
+| ------------------------------------------------------------------ |:---------------------------------------------|
+User should be able to easily identify purpose of the website | The introductory text clearly states that the bussiness is an AI creative solutions provider and lists the specialist products
+User should be able to easily navigate the page | Navigation bar is fully responsvie or the user can simply scroll the different page sections
+User should be able to easily reach the membership form | Links and buttons are used to direct the user to these locations, but it could do with more *emphasis* and direction to be clicked
+User should be able to have product choice | This form allows the user to select multiple products by clicking on them, if desired
 
 ### **Testing functionality**
 
