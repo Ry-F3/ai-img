@@ -452,6 +452,8 @@ I would like to express my gratitude to the content creators who have helped me 
 * **Web Cifar**
     * This code was essential to the development of my roadmap - [Codepen](https://codepen.io/Web_Cifar/pen/jObBvqN).
 
+<br>
+
 * **Adam Boley** 
     * Markdown Language and Readme guidance and peer review.
 
