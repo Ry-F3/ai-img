@@ -3,7 +3,7 @@
 # Ai.img
 
 # Code Institute Portfolio Project 1: Front end project using HTML and CSS deployed via Github.
-### To view the project please [click here](https://ry-f3.github.io/ai.img-v2/).
+### To view the project please [click here](https://ry-f3.github.io/ai-img/).
 <br>
 
 ![Index page screenshot](assets/images/screenshots/amiresponsive.png)
