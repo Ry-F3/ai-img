@@ -345,7 +345,7 @@ Click on navbar links/icons | Takes the user to the approriate page | Take the u
 Click on home page product buttons | Takes the user to URL destination | Take the user to URL destination (note a fully realised project would link to examles of work via a gallery)
 Click on navbar "get started" button | Takes the user to form.html | Take the user to form.html
 Click on link team page/user cases | Take the user to the membership pricing plans | Takes the user to the membership pricing plans
-Click on get "get started" button on pricing page | | Take the user to the membership pricing plans | Takes the user to the membership pricing plans
+Click on "get started" button pricing page | Take the user to the membership pricing plans | Takes the user to the membership pricing plans
 Click on get started button on team page/user cases | Takes the user to form.html | Take the user to form.html
 Click on hamburger icon | Dropdown menu appears for user navigation | Dropdown menu appears for user navigation
 Scroll | User navigation of the website without using the navigation links | User navigation of the website without using the navigation links
