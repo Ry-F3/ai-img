@@ -324,7 +324,10 @@ Additionally, I would like to investigate the feasibility of using third-party s
     * Used for most of the website's icons.
 
 * [Font Awesome](https://khan.github.io/Font-Awesome/) 
-    * Used a tool to pair my selected fonts and some icons.
+    * Used for some of the website's icons.
+
+* [Google Fonts](https://fonts.google.com/)
+    * Used tool to pair fonts.
 
 * [Responsinator](http://www.responsinator.com/)
     * Used to test the responsiveness of the website. 
@@ -380,7 +383,6 @@ Upon performing HTML validation on 31/03/23, there were no errors found in the c
 
 **Stylesheet.css** - Two erros found. I am certain that the errors are occuring because the :has pseudo selector has limited browser support. Though a parse error does refer to all instances of the <code>;} (semicolon curly bracket) or just a } (curly bracket)</code> being used incorectly within the code. If any reader knows the reasoning I would appreciate the feedback.
 
-
 #### **Lighthouse performance testing**
 
 **Index.html**:
@@ -399,34 +401,58 @@ Upon performing HTML validation on 31/03/23, there were no errors found in the c
 
 ### **Code**
 
-### **Inspiration**
+I would like to express my gratitude to the content creators who have helped me expand my coding knowledge. Their tutorials, videos, and blogs have been instrumental in helping me to build my technical skills and achieve my coding goals. Their contributions have made a significant impact on my personal and professional growth, and I am truly grateful for their dedication.
+
+* **Kevin Powell** 
+    * Chevron page shape - [YouTube Video](https://www.youtube.com/watch?v=QY7Rj8aZcZk&t=757s).
+    * :before and :after Pseudo Selector - [YouTube Video](https://www.youtube.com/watch?v=xoRbkm8XgfQ&t=419s).
+    * :has Pseudo selector - [YouTube Video](https://www.youtube.com/watch?v=OGJvhpoE8b4).
+
+<br>
+
+* **Chris Coyier** 
+    * Transition in and out -  [CSS Tricks](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/).
+
+<br>
+
+* **Unknown** 
+    * Spheres - [CSS Animation](https://cssanimation.rocks/spheres/).
+
+<br>
+
+* **Ana Tudor** 
+    * Speech Bubble (cut content in demo files within the bin folder) - [CSS Animation](https://cssanimation.rocks/spheres/).
+
+<br>
+
+* **Adam Boley** 
+    * Markdown Language and Readme guidance and peer review.
+
+<br>
+
+* **Iuliia Konovalova** 
+    * Coding HTML and CSS sugestions and peer review.
+
+<br>
+
+* **Antonio Rodriguez** 
+    * Project guidance and showing me how I would use JavaScript for the hamburger toggle in the future.
 
 ### **Images**
 
+Main content images used adobe stock and the character creation for the team page were generated using an ai programme called dream.
+
+* **Visual Generation**
+    * [Adobe Stock](https://stock.adobe.com/uk/contributor/201052191/visual-generation?load_type=author&prev_url=detail).
+
+* **dream by WOMBO**
+    * [dream](https://dream.ai/)
+
 ### **Acknowledgements**
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/) 
+I would like to express my heartfelt gratitude to the alumni of the course for their generous efforts in reviewing my code and providing me with invaluable feedback on how I could make current and future changes to my work. Their knowledge and expertise have been of immense help to me and will undoubtedly aid me in my coding journey going forward.
 
-The [Am I Responsive](http://ami.responsivedesign.is/#) 
+In addition, I would also like to extend my appreciation to my friends and family who have been unwavering in their support. They have spent countless hours listening to my ideas and providing constructive feedback, which has helped me to refine my work and improve my skills. Their encouragement and guidance have been instrumental in my success, and I am grateful to have such a wonderful support system.
 
-Bibliography (credits) - 
+Developed by **Rhys.ALexander.Few**
 
-
-
-https://stackoverflow.com/questions/5025941/is-there-a-way-to-get-a-button-element-to-link-to-a-location-without-wrapping
-
-https://www.youtube.com/watch?v=QY7Rj8aZcZk&t=757s (chevron)
-
-https://www.youtube.com/watch?v=xoRbkm8XgfQ&t=419s (before and after)
-
-https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ (transition in and out) x
-
-https://codepen.io/thebabydino/pen/DmVqBM (speech bubble)
-
-https://www.youtube.com/watch?v=OGJvhpoE8b4 (:has)
-
-https://fonts.google.com/
-
-https://cssanimation.rocks/spheres/ (shere)
-
-http://www.responsinator.com/?url=ry-f3.github.io%2Fai.img-v2%2
