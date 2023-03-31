@@ -179,7 +179,7 @@ To ensure the website's functionality on a variety of devices, I personally test
 
 <br>
 
-* **Alex Majeed** *unknown*
+* **Alex Majeed** *Google Pixel 6*
     * No major bugs.
     * Suggested to make the pricing table's text more visually distinct.
 
@@ -350,10 +350,20 @@ Click on hamburger icon | Dropdown menu appears for user navigation | Dropdown m
 Click on "get started" button pricing page | Take the user to the membership pricing plans | Takes the user to the membership pricing plans
 Scroll | User navigation of the website without using the navigation links | User navigation of the website without using the navigation links
 
-
-
-
 ### **Testing on different devices**
+
+To ensure that my project was accessible to the widest possible range of users, I sought feedback from individuals who used a diverse range of devices. This included users who accessed the project on desktop computers, laptops, tablets, and smartphones.
+
+* *Razer Book 13*
+* *Razer Blade 15*
+* *Ipad Pro 11*
+* *Samsung Tablet*
+* *Google Pixel 6*
+* *Samsung Note 20*
+* *Samsung A20*
+* *Samsung Flip 3*
+* *Iphone SE*
+
 
 ### **Testing code**
 
