@@ -399,6 +399,8 @@ Upon performing HTML validation on 31/03/23, there were no errors found in the c
 
 ## **Credits**
 
+Developed by **Rhys.ALexander.Few**
+
 ### **Code**
 
 I would like to express my gratitude to the content creators who have helped me expand my coding knowledge. Their tutorials, videos, and blogs have been instrumental in helping me to build my technical skills and achieve my coding goals. Their contributions have made a significant impact on my personal and professional growth, and I am truly grateful for their dedication.
@@ -454,5 +456,4 @@ I would like to express my heartfelt gratitude to the alumni of the course for t
 
 In addition, I would also like to extend my appreciation to my friends and family who have been unwavering in their support. They have spent countless hours listening to my ideas and providing constructive feedback, which has helped me to refine my work and improve my skills. Their encouragement and guidance have been instrumental in my success, and I am grateful to have such a wonderful support system.
 
-Developed by **Rhys.ALexander.Few**
 
