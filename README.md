@@ -257,13 +257,13 @@ Stage 1            |      Stage 2  |           Stage 3 |             Stage 4
 
 These colors work well together for a creative business website for several reasons:
 
-1. Blue is often associated with professionalism, trustworthiness, and creativity, making it a good choice for a creative business website. The bright blue shade (#5C7AF2) is eye-catching and attention-grabbing, which can help to draw visitors to the website.
+1. Blue is often associated with professionalism, trustworthiness, and creativity, making it a good choice for a creative business website. The bright blue shade **(#5C7AF2)** is eye-catching and attention-grabbing, which can help to draw visitors to the website.
 
-2. The warm red-orange shade (#E97060) adds energy and passion to the color scheme, which can help to convey the creative and innovative nature of the business. This color can also evoke feelings of excitement and enthusiasm, which can help to engage visitors and keep them interested in the website.
+2. The warm red-orange shade **(#E97060)** adds energy and passion to the color scheme, which can help to convey the creative and innovative nature of the business. This color can also evoke feelings of excitement and enthusiasm, which can help to engage visitors and keep them interested in the website.
 
-3. The light blue-gray shade (#CDDDFD) adds a sense of calm and tranquility to the color scheme. This color can help to balance out the brighter, more energetic colors and create a sense of harmony and balance on the website.
+3. The light blue-gray shade **(#CDDDFD)** adds a sense of calm and tranquility to the color scheme. This color can help to balance out the brighter, more energetic colors and create a sense of harmony and balance on the website.
 
-4. The muted blue-gray shade (#42526E) adds depth and sophistication to the color scheme. This color can help to create a sense of elegance and professionalism on the website, which can be important for a creative business that wants to convey a sense of quality and attention to detail.
+4. The muted blue-gray shade **(#42526E)** adds depth and sophistication to the color scheme. This color can help to create a sense of elegance and professionalism on the website, which can be important for a creative business that wants to convey a sense of quality and attention to detail.
 
 Overall, these colors work well together for a creative business website because they create a dynamic and engaging color scheme that can help to convey the energy, creativity, and professionalism of the business.
 
@@ -364,14 +364,22 @@ To ensure that my project was accessible to the widest possible range of users, 
 * *Samsung Flip 3*
 * *Iphone SE*
 
-
 ### **Testing code**
 
 #### **HTML validation**
 
-**Index.html** - 
+Upon performing HTML validation on 31/03/23, there were no errors found in the code of the web page. This means that the HTML code of the page was properly structured and formatted according to the standards set by the W3C. This is a positive outcome, as it indicates that the web page is likely to perform well across different browsers and devices, and that it should be accessible and user-friendly for a wide range of users.
 
-**Form.html** - 
+**Index.html** - No issues or errors found.
+
+**Form.html** - No issues or errors found.
+
+#### **CSS (Jigsaw) validation**
+
+![Error](assets/images/screenshots/screenshot-errors.png)
+
+**Stylesheet.css** - Two erros found. I am certain that the errors are occuring because the :has pseudo selector has limited browser support. Though a parse error does refer to all instances of the <code>;} (semicolon curly bracket) or just a } (curly bracket)</code> being used incorectly within the code. If any reader knows the reasoning I would appreciate the feedback.
+
 
 #### **Lighthouse performance testing**
 
