@@ -162,16 +162,20 @@ To ensure the website's functionality on a variety of devices, I personally test
     * Semantic “h” tag  headings need to be in chronological order.
     * It is hard to distinguish the colours of the navbar upon drop down.
     * ~~Pricing table isn't responsive below a certain width (think about font sizes)~~.
+         * *Updated and added to the website.*
     * ~~Metadata has not been inputted correctly~~.
+        * *Updated and added to the website.*
     * ~~Put main content in the main element tag, excluding navbar and footer~~.
-        * *I attempted to place my sections within the main tag, but unfortunately, this caused one of my buttons and links to stop functioning correctly. As a result, I have reverted to my previous HTML formatting.*
+        * * I attempted to place my sections within the main tag, but unfortunately, this caused one of my buttons and links to stop functioning correctly. As a result, I have reverted to my previous HTML formatting.*
     * ~~Add an <code>aria-label=""</code> to each "a" element~~.
+        * *Updated and added to the website.*
 
 <br>
 
 * **Adam Boley (Code Institute Alumni).** *Samsung A20*
     * Dropdown menu bars are not clickable only the text, which could be jarring for users.
     * ~~Navbar links opening a new tab, change to "a" tags for a nicer user experience~~.
+         * *Updated and added to the website.*
 
 <br>
 
@@ -189,6 +193,7 @@ To ensure the website's functionality on a variety of devices, I personally test
 * **Nick Few** *Iphone SE*
     * No major bugs.
     * ~~Navbar links opening a new tab, change to "a" tags for a nicer user experience~~.
+         * *Updated and added to the website.*
 
 <br>
 
