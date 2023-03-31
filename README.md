@@ -156,7 +156,7 @@ The purpose of the text is to provide information and quickly convey the purpose
 
 In order to gauge the effectiveness of my website and identify areas for improvement, I reached out to several Code Institute alumni, friends, and family members. Their feedback has been invaluable in shaping our approach moving forward.
 
-To ensure the website's functionality on a variety of devices, I personally tested it on my *Razer laptop, Samsung Flip 3, and iPa*d*. Overall, the user experience was positive. However, I did observe some inconsistencies in browser support on Apple products. Specifically, icons appeared smaller and the navigation bar was not always able to drop down properly on smaller devices. I am actively working to address these issues and ensure that all users have a seamless experience on the website, regardless of their device or browser.
+To ensure the website's functionality on a variety of devices, I personally tested it on my *Razer laptop, Samsung Flip 3, and iPad*. Overall, the user experience was positive. However, I did observe some inconsistencies in browser support on Apple products. Specifically, icons appeared smaller and the navigation bar was not always able to drop down properly on smaller devices. I am actively working to address these issues and ensure that all users have a seamless experience on the website, regardless of their device or browser.
 
 * **Iuliia Konovalova (Code Institute Alumni).** *unknown*
     * Semantic “h” tag  headings need to be in chronological order.
