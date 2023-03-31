@@ -31,7 +31,6 @@
 - [Design Choices](#design-choices)
     - [Font](#font)
     - [Layout and Structure](#layout-and-structure)
-    - [Background Images](#background-images)
     - [Colour Schemes](#colour-schemes)
 - [Accessibility](#accessibility)
 - [Code explanations](#code-explanations)
@@ -300,13 +299,50 @@ Stage 1            |      Stage 2  |           Stage 3 |             Stage 4
 :-------------------------:|:-------------------------: |:-------------------------: |:-------------------------:
 <img src="assets/images/screenshots/screenshot-original-mock-up-phone.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.1.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.2.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-final-landing-page.png" width=260 height=450>  
 
-### **Background images**
-
 ### **Colour schemes**
 
-### **Image galleries**
+These colors work well together for a creative business website for several reasons:
+
+1. Blue is often associated with professionalism, trustworthiness, and creativity, making it a good choice for a creative business website. The bright blue shade (#5C7AF2) is eye-catching and attention-grabbing, which can help to draw visitors to the website.
+
+2. The warm red-orange shade (#E97060) adds energy and passion to the color scheme, which can help to convey the creative and innovative nature of the business. This color can also evoke feelings of excitement and enthusiasm, which can help to engage visitors and keep them interested in the website.
+
+3. The light blue-gray shade (#CDDDFD) adds a sense of calm and tranquility to the color scheme. This color can help to balance out the brighter, more energetic colors and create a sense of harmony and balance on the website.
+
+4. The muted blue-gray shade (#42526E) adds depth and sophistication to the color scheme. This color can help to create a sense of elegance and professionalism on the website, which can be important for a creative business that wants to convey a sense of quality and attention to detail.
+
+Overall, these colors work well together for a creative business website because they create a dynamic and engaging color scheme that can help to convey the energy, creativity, and professionalism of the business.
 
 ## **Bugs**
+
+During the development of my website, I utilised tools such as the [W3 HTML](https://validator.w3.org/) and [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS validators to identify and resolve inconsistencies in my code. These validators helped me to ensure that my code was clean and compliant with web standards, which is essential for creating a website that is accessible and user-friendly.
+
+In addition to using these tools, I also sought feedback from my peers and other users to identify any issues or areas for improvement. This feedback was invaluable in helping me to refine and improve my website, as it provided me with a fresh perspective and helped me to see things from the user's point of view.
+
+Through this process of validation and feedback, I was able to identify and fix some issues with my code, including incorrect syntax, missing or broken tags, and inconsistencies in styling. This allowed me to create a website that is well-structured, easy to navigate, and visually appealing.
+
+In conclusion, by using tools such as validators and seeking feedback from others, I was able to ensure that my website is of high quality and meets the needs of its users.
+
+**List of known bugs:**
+
+* Jigsaw recognises the :has pseudo selector as a *parse error* - note this was used for the navigation dropdown menu, there is  currently only some browser support.
+
+* Responsivity of the pricing table breaks the formatting of the website below a width of 313px.
+
+* Heading "Why Ai.img?" becomes hidden on some devices when viewed in landscape mode.
+
+<br>
+
+**List of fixed bugs**
+
+* There were several problems with the responsiveness of the landing page, which led to significant changes in the visual design to ensure a more consistent user experience. One of the issues was that buttons overlaid on specific areas of an image would move depending on the width of the screen, resulting in an inconsistent layout and structure. To address this issue, an excessive number of media queries would have been necessary. As a result, I had to make significant adjustments to the visual design to ensure a clear and effective representation of the intended layout and structure on various screen sizes.
+
+* W3 Html validator highlighted stray element tags that were not closed properly.
+
+* The text positioning featured on the user cases (team page), needed adjusting several times for responsivity.
+
+* Button elements cannot have an "a" tag as a direct child or be the parent.
+
 
 ## **Code explanations**
 
