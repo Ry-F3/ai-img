@@ -201,10 +201,11 @@ The purpose of the text is to provide information and quickly convey the purpose
 
 ### **User feedback**
 
-I have reached out to a couple of the Code Institute's Alumni, friends and family to guage their experience and what could be changed in the future.<br>
-I tested the website on my my 13 inch *Razer laptop, Samsung Flip 3 and an Ipad*. Overall the experience was positive, however I noticed that browser support on *Apple* products was not consistant. Icons appeared smaller and the navbar was not always able to drop down to navigate on smaller devices.
+In order to gauge the effectiveness of my website and identify areas for improvement, I reached out to several Code Institute alumni, friends, and family members. Their feedback has been invaluable in shaping our approach moving forward.
 
-* **Iuliia Konovalova (Code Institute Alumni).**
+To ensure the website's functionality on a variety of devices, I personally tested it on my *Razer laptop, Samsung Flip 3, and iPa*d*. Overall, the user experience was positive. However, I did observe some inconsistencies in browser support on Apple products. Specifically, icons appeared smaller and the navigation bar was not always able to drop down properly on smaller devices. I am actively working to address these issues and ensure that all users have a seamless experience on the website, regardless of their device or browser.
+
+* **Iuliia Konovalova (Code Institute Alumni).** *unknown*
     * Semantic “h” tag  headings need to be in chronological order.
     * It is hard to distinguish the colours of the navbar upon drop down.
     * Pricing table isn't responsive below a certain width (think about font sizes).
@@ -263,19 +264,41 @@ Initially, the plan was to create a gallery page to showcase hypothetical exampl
 
 ### Contact form
 
+Our contact form has been thoughtfully designed to invite users to become members and take advantage of the comprehensive services offered by our hypothetical business models. We offer three membership levels - basic, start-up, and enterprise - and users can choose the medium they wish to inquire about. Upon submitting their inquiry, our prompt and professional team of experts will provide tailored advice and exceptional services to ensure that all our members' needs are met.
+
 <img src="./assets/images/screenshots/screenshot-form.png" width=220 height=450>
 
 ### **Accessibility**
 
-[Am I Responsive?](http://ami.responsivedesign.is/#):
+Device responsivitiy tested on [Am I Responsive](http://ami.responsivedesign.is/#) and [Responsintator](http://www.responsinator.com/).
 
-![Devices screenshot]()
+![Devices screenshot](assets/images/screenshots/amiresponsive.2.png)
 
 ## **Design Choices**
 
 ### **Font**
 
+Font pairing is an important aspect of web design, as it can greatly affect the readability and overall aesthetic of a website. In this case, Font Awesome has chosen to pair PT Sans and Roboto to create a harmonious and visually pleasing experience for users.
+
+PT Sans is a sans-serif font that was designed by Alexandra Korolkova, Olga Umpeleva, and Vladimir Yefimov in 2009. It has a modern and elegant appearance, with rounded edges and open apertures, making it easy to read both on screen and in print. It is often used for headings, subheadings, and body text.
+
+On the other hand, Roboto is a sans-serif font developed by Christian Robertson in 2011. It has a more geometric and futuristic look, with sharp edges and clean lines. It was designed specifically for use on digital interfaces, and its excellent legibility makes it a popular choice for body text on websites.
+
+By pairing PT Sans and Roboto, Font Awesome has created a complementary blend of modern and classic styles. This is particularly suitable for a website offering AI services that seeks to push the boundaries of creativity. The combination of PT Sans' roundness and Roboto's sharpness results in a balanced and visually appealing design that is easy to read and navigate.
+
 ### **Layout and Structure**
+
+The layout and structure of my website were heavily influenced by [adcreative.ai](https://www.adcreative.ai/). I used this website as a reference and tried to emulate certain aspects while adding my own unique touch. To plan my website's layout, I used [Balsamiq](https://balsamiq.com/) to create a basic visual structure to work from. However, as the creative process unfolded, I deviated quite significantly from the initial plan.
+
+The home page, in particular, underwent numerous changes as I explored different design options and experimented with various elements. I made adjustments to the placement of certain components, altered the colour scheme, and revised the content in response to feedback from peers.
+
+While adcreative.ai provided the inspiration for my website's structure, I am proud of the ways in which I personalised and customised it to suit my specific needs and goals. The creative process was iterative and dynamic, and I believe that the end result is a website that reflects my own unique style and approach.
+
+Examples of changes to the home page:
+
+Stage 1            |      Stage 2  |           Stage 3 |             Stage 4
+:-------------------------:|:-------------------------: |:-------------------------: |:-------------------------:
+<img src="assets/images/screenshots/screenshot-original-mock-up-phone.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.1.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-landing-page.2.png" width=260 height=450>  | <img src="assets/images/screenshots/screenshot-final-landing-page.png" width=260 height=450>  
 
 ### **Background images**
 
