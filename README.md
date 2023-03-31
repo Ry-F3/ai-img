@@ -391,6 +391,22 @@ Upon performing HTML validation on 31/03/23, there were no errors found in the c
 
 #### **Lighthouse performance testing**
 
+##### Mobile:
+
+**Index.html**:
+- Performance: 
+- Accessibility: 
+- Best Practices:
+- SEO:
+
+**Form.html**:
+- Performance: 
+- Accessibility: 
+- Best Practices:
+- SEO:
+
+##### Desktop:
+
 **Index.html**:
 - Performance: 
 - Accessibility: 
