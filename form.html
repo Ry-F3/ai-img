@@ -93,46 +93,47 @@
     <div class="form_header_box"></div>
 
     <!-- Section Form Page -->
+    <main>
+        <section>
+            <div class="column column-height_100 background-img">
 
-    <section>
-        <div class="column column-height_100 background-img">
+                <form class="get-started" method="POST" action="https://formdump.codeinstitute.net/">
+                    <h2>Lets Get Started!</h2>
+                    <label class="label-text">First Name</label>
+                    <input class="form-input" id="fname" name="first_name" type="text" required>
+                    <label class="label-text">Last Name</label>
+                    <input class="form-input" id="lname" name="last_name" type="text" required>
+                    <label class="label-text">Email Address</label>
+                    <input class="form-input" type="email" id="email" name="email_address" required>
 
-            <form class="get-started" method="POST" action="https://formdump.codeinstitute.net/">
-                <h2>Lets Get Started!</h2>
-                <label class="label-text">First Name</label>
-                <input class="form-input" id="fname" name="first_name" type="text" required>
-                <label class="label-text">Last Name</label>
-                <input class="form-input" id="lname" name="last_name" type="text" required>
-                <label class="label-text">Email Address</label>
-                <input class="form-input" type="email" id="email" name="email_address" required>
+                    <h5>Membership Plans</h5>
+                    <label for="basic_plan">Basic</label>
+                    <input type="radio" id="basic_plan" name="member_plan" value="basic_plan" required>
+                    <label for="start_up_plan">Start-up</label>
+                    <input type="radio" id="start_up_plan" name="member_plan" value="start_up_plan" required>
+                    <label for="enterprise_plan">Enterprise</label>
+                    <input type="radio" id="enterprise_plan" name="member_plan" value="enterprise_plan" required>
 
-                <h5>Membership Plans</h5>
-                <label for="basic_plan">Basic</label>
-                <input type="radio" id="basic_plan" name="member_plan" value="basic_plan" required>
-                <label for="start_up_plan">Start-up</label>
-                <input type="radio" id="start_up_plan" name="member_plan" value="start_up_plan" required>
-                <label for="enterprise_plan">Enterprise</label>
-                <input type="radio" id="enterprise_plan" name="member_plan" value="enterprise_plan" required>
+                    <h5>Enquiry(s)</h5>
+                    <label>Ad</label>
+                    <input type="checkbox">
+                    <label>Socials</label>
+                    <input type="checkbox">
+                    <label>NFTs</label>
+                    <input type="checkbox">
 
-                <h5>Enquiry(s)</h5>
-                <label>Ad</label>
-                <input type="checkbox">
-                <label>Socials</label>
-                <input type="checkbox">
-                <label>NFTs</label>
-                <input type="checkbox">
+                    <h5>Ask our Prompt Pros!</h5>
+                    <textarea>comment...</textarea>
 
-                <h5>Ask our Prompt Pros!</h5>
-                <textarea>comment...</textarea>
+                    <input type="submit" value="Submit" id="form-submit">
+                </form>
+            </div>
+        </section>
 
-                <input type="submit" value="Submit" id="form-submit">
-            </form>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <p>©Rhys Few 2023</p>
-    </footer>
+        <footer class="footer">
+            <p>©Rhys Few 2023</p>
+        </footer>
+    </main>
 </body>
 
 </html>
