@@ -559,8 +559,7 @@ button:hover {
 #pro_heading_box {
   width: 250px;
   position: absolute;
-  top: -225px;
-  background-color: green;
+  top: -110px;
 }
 
 #prompt_pro_text_box {
@@ -606,7 +605,7 @@ button:hover {
   float: left;
   font-size: 4rem;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: -51px;
+  top: -42px;
   left: 48px;
 }
 
@@ -616,7 +615,7 @@ button:hover {
   float: left;
   font-size: 3rem;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  top: -1px;
+  top: 5px;
   left: 12px;
 }
 
@@ -906,16 +905,25 @@ textarea {
   font-family: 'roboto';
   background-color: transparent;
   border: 1px solid #f1f1f1;
+  resize: none;
 }
 
 #form-submit {
   width: 100px;
   height: 40px;
-  background-color: transparent;
+  background-color: rgb(243 112 90 / 1);
   font-family: 'roboto';
   margin-top: 10px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid rgba(243, 112, 90, 1);
   color: #f1f1f1;
+  border-radius: 5px;
+}
+
+#form-submit:hover {
+  
+  background-color: rgb(255, 84, 54);
+  
+  border: 1px solid rgb(255, 84, 54);
 }
 
 .background-img {
