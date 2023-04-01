@@ -560,6 +560,7 @@ button:hover {
   width: 250px;
   position: absolute;
   top: -225px;
+  background-color: green;
 }
 
 #prompt_pro_text_box {
@@ -774,7 +775,6 @@ div aside em {
   margin-left: auto;
   margin-right: auto;
   background: url(../images/web/pricing.webp) center center / cover no-repeat fixed;
-  margin-top: -160px;
   background-size: 85%;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
@@ -792,7 +792,7 @@ table {
   margin-top: 110px;
   width: 95%;
   box-shadow: 5px 40px 30px 5px rgb(0 0 0 / 18%);
-  background-color: rgba(255, 255, 255, .858);
+  background-color: rgba(255, 255, 255, 0.977);
   margin-bottom: 150px;
   border: 1px solid #d2d2d259;
 }
@@ -1129,9 +1129,9 @@ textarea {
     right: 0;
     background-color: rgb(251, 247, 247);
     border-radius: 0 0 10px 10px;
-    border-left: 4px solid rgba(139, 139, 148, 0.04);
-    border-right: 4px solid rgba(139, 139, 148, 0.04);
-    border-bottom: 4px solid rgba(139, 139, 148, 0.04);
+    border-left: 4px solid rgb(139 139 148 / 20%);
+    border-right: 4px solid rgb(139 139 148 / 20%);
+    border-bottom: 4px solid rgb(139 139 148 / 20%);
   }
 
   .border-top {
