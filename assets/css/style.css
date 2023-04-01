@@ -249,6 +249,7 @@ input:checked~.btn {
   margin-right: auto;
   width: 90vw;
   font-style: italic;
+  font-size: 12px;
 }
 
 #home_box {
@@ -1115,7 +1116,7 @@ textarea {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    bottom: 124px;
+    bottom: 156px;
     z-index: -9;
     margin-top: 0;
   }
@@ -1217,7 +1218,7 @@ textarea {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    bottom: 221px;
+    bottom: 232px;
     z-index: -9;
     margin-top: 0;
   }
