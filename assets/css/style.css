@@ -772,8 +772,9 @@ div aside em {
   z-index: -2;
   color: #f1f1f1;
   position: relative;
-  top: -221px;
+  top: -88px;
   border-top: 2px solid #495cd1;
+  font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 .pricing-container {
