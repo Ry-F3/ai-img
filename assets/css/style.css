@@ -670,7 +670,13 @@ div aside em {
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   letter-spacing: 1.5px;
   bottom: 60px;
+  text-align: center;
+  background-color: rgba(243, 112, 90, 1);
+  font-weight: bold;
+}
 
+#btn-get-started:hover {
+  background-color: rgb(245, 87, 60) ;
 }
 
 .margin-bottom {
@@ -920,9 +926,7 @@ textarea {
 }
 
 #form-submit:hover {
-  
   background-color: rgb(255, 84, 54);
-  
   border: 1px solid rgb(255, 84, 54);
 }
 
