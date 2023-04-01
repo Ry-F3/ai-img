@@ -222,7 +222,7 @@ input:checked~.btn {
 
 /* home page */
 
-div div h1 {
+.main_headings h1 {
   margin-top: 115px;
   margin-bottom: 20px;
   font-family: 'PT Sans', 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
@@ -231,7 +231,7 @@ div div h1 {
   color: #E7E5DF;
 }
 
-div div h4 {
+.main_headings h2 {
   margin-bottom: 20px;
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
   border-bottom: 1px solid #e7e5df61;
@@ -242,12 +242,13 @@ div div h4 {
   color: #E7E5DF;
 }
 
-div div h5 {
+.main_headings p {
   font-family: 'Roboto', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif';
-  color: #e7e5df87;
+  color: #e7e5df87 !important; 
   margin-left: auto;
   margin-right: auto;
   width: 90vw;
+  font-style: italic;
 }
 
 #home_box {
@@ -1071,6 +1072,12 @@ textarea {
   }
 
 }
+@media screen and (max-width: 808px) {
+.row {
+  display: flex;
+  flex-direction: column;
+}
+}
 
 @media screen and (max-width: 780px) {
 
@@ -1121,11 +1128,6 @@ textarea {
     letter-spacing: .15em;
     color: #062745;
     font-size: medium;
-  }
-
-  .row {
-    display: flex;
-    flex-direction: column;
   }
 
   .row_revert {
