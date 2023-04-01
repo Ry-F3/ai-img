@@ -159,8 +159,10 @@ In order to gauge the effectiveness of my website and identify areas for improve
 To ensure the website's functionality on a variety of devices, I personally tested it on my *Razer laptop, Samsung Flip 3, and iPad*. Overall, the user experience was positive. However, I did observe some inconsistencies in browser support on Apple products. Specifically, icons appeared smaller and the navigation bar was not always able to drop down properly on smaller devices. I am actively working to address these issues and ensure that all users have a seamless experience on the website, regardless of their device or browser.
 
 * **Iuliia Konovalova (Code Institute Alumni).** *unknown*
-    * Semantic “h” tag  headings need to be in chronological order.
-    * It is hard to distinguish the colours of the navbar upon drop down.
+    * ~~Semantic “h” tag  headings need to be in chronological order.~~
+        * *Updated and added to the website.*
+    * ~~It is hard to distinguish the colours of the navbar upon drop down.~~
+        * *Updated and added to the website.*
     * ~~Pricing table isn't responsive below a certain width (think about font sizes)~~.
          * *Updated and added to the website.*
     * ~~Metadata has not been inputted correctly~~.
