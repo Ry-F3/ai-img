@@ -1057,7 +1057,6 @@ textarea {
     display: inline;
     color: #f1f1f1;
   }
-
 }
 
 @media screen and (max-width: 976px) {
@@ -1070,17 +1069,16 @@ textarea {
     background-size: 550px;
     background-position: 43% 55%;
   }
-
 }
+
 @media screen and (max-width: 808px) {
 .row {
-  display: flex;
-  flex-direction: column;
-}
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 780px) {
-
   #home_box {
     background-size: 645px;
     background-position: 31% 55%;
@@ -1093,7 +1091,6 @@ textarea {
     height: 45%;
     background-size: 600px;
     background-position: 29% 60%;
-
   }
 
   .btn-landing-page {

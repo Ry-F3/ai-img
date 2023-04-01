@@ -458,12 +458,12 @@ I would like to express my gratitude to the content creators who have helped me 
 <br>
 
 * **Adam Boley** 
-    * Markdown Language and Readme guidance and peer review.
+    * Markdown Language and Readme guidance and peer review - [Github](https://github.com/AdamBoley).
 
 <br>
 
 * **Iuliia Konovalova** 
-    * Coding HTML and CSS sugestions and peer review.
+    * Coding HTML and CSS sugestions and peer review - [Github](https://github.com/IuliiaKonovalova).
 
 <br>
 
