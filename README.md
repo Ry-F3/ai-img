@@ -188,7 +188,8 @@ To ensure the website's functionality on a variety of devices, I personally test
 
 * **Alex Majeed** *Google Pixel 6*
     * No major bugs.
-    * Suggested to make the pricing table's text more visually distinct.
+    * ~~Suggested to make the pricing table's text more visually distinct.~~
+        * *Increased background-color opacity.*
 
 <br> 
 
