@@ -1219,7 +1219,7 @@ textarea {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    bottom: 187px;
+    bottom: 215px;
     z-index: -9;
     margin-top: 0;
   }
@@ -1254,14 +1254,14 @@ textarea {
 @media screen and (max-width: 359px) {
 
   .chevron {
-    bottom: 220px;
+    bottom: 233px;
   }
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 321px) {
   .chevron {
-    bottom: 217px;
+    bottom: 233px;
   }
 }
 
