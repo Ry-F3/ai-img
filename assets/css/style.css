@@ -1218,7 +1218,7 @@ textarea {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    bottom: 232px;
+    bottom: 180px;
     z-index: -9;
     margin-top: 0;
   }
@@ -1242,6 +1242,20 @@ textarea {
   .header_box {
     height: 250px;
   }
+
+  .main_headings h2 {
+    font-size: 15px;
+    width: 200px;
+  }
+  
+}
+
+@media screen and (max-width: 359px) {
+
+  .chevron {
+    bottom: 220px;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
