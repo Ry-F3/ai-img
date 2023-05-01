@@ -1254,15 +1254,9 @@ textarea {
 @media screen and (max-width: 359px) {
 
   .chevron {
-    bottom: 233px;
+    bottom: 241px;
   }
 
-}
-
-@media screen and (max-width: 321px) {
-  .chevron {
-    bottom: 233px;
-  }
 }
 
 @media screen and (max-width: 320px) {
