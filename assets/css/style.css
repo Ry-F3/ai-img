@@ -1210,6 +1210,10 @@ textarea {
   .chevron {
     bottom: 179px;
   }
+
+  .column-height {
+    height: 760px;
+  }
 }
 
 @media screen and (max-width: 375px) {
